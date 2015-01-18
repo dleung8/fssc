@@ -1,0 +1,1768 @@
+File: index.html
+Title: Flight Simulator Scenery Creator
+Level: 1
+Keywords: Inhalt, Index
+
+Willkommen! Danke, dass Sie Flight Simulator Scenery Creator zum Designprogramm Ihrer Wahl gemacht haben. Diese Hilfedatei soll Neulinge in die Welt des Szeneriedesign einführen sowie fortgeschrittenen Designern Anhaltspunkte geben, wie das volle Potential von Flight Simulator Scenery Creator ausgenutzt werden kann.
+
+Neben dieser Hilfedatei können jederzeit die Programmhilfe aufrufen, indem Sie in die rechte obere Ecke des jeweiligen Fensters klicken <img src="images/help.gif"> und dann das interessierende Gebiet im Fenster anklicken. Zusätzlich sollten Sie sich den "Tipp des Tages"  ansehen, welcher darauf hinweist, wie man effizient mit dem Programm arbeitet.
+ 
+Des weiteren können Sie ein beliebiges Hilfethema auf der linken Bildschirmseite anklicken, oder die Tutorials aus dem FS Scenery Creator - Menü anwählen.
+
+Besuchen Sie auch die FS Scenery Creator - Programmwebseite auf <A HREF="http://www.fssc.avsim.net/" TARGET="_blank">http://www.fssc.avsim.net/</A>, um Neuigkeiten und Updates zu erhalten.
+
+File: overview.html
+Title: Übersicht zum Programm
+Level: 2
+Keywords: Übersicht
+
+FS Scenery Creator ist ein vielseitiges, leicht verwendbares grafisches Designwerkzeug für den Microsoft Flugsimulator. Das Programm ist verfügbar als Freeware für Hobbyzwecke und nichtkommerzielle Verwendung. FS Scenery Creator benutzt OpenGL, um eine realistische Vogelperspektive auf die geplante Szenerie zu ermöglichen, und eine einfache mausbedienbare grafische Oberfläche. Zum "Fein-Tuning" kann man das jeweilige "Eigenschaften"-Fenster eines Objekts öffnen und aus unendlichen Möglichkeiten und Features auswählen. FS Scenery Creator unterstützt Makros in allen gängigen Formaten (VOD, A&SD, FSSC und Airport), durch die eine Szenerie erst Leben erhält. FS Scenery Creator ist eine für ein internationales Publikum bestimmte Anwendung mit Übersetzung der Eigenschafts-Fenster und Hilfetexte in viele Sprachen, und unterstützt auch verschiedene Maßeinheiten.
+
+Zu alledem ist der "Help Desk" während fast des ganzen Jahrs geöffnet, um zu versuchen, alle Ihre Fragen zu Szeneriedesign oder FS Scenery Creator zu beantworten. Zeitweise ist über die Messenger-services des Internets Hilfe verfügbar, und Support über e-mail natürlich immer.
+
+File: faq.html
+Title: Häufigste Fragen (FAQ)
+Level: 2
+Keywords: FAQ
+
+Dieser Abschnitt der Hilfedatei wird ausgebaut, je mehr Fragen mir gestellt werden. Wenn Sie irgendwelche Fragen haben, bitte senden Sie diese an <A HREF="mailto:fsschelp@yahoo.com">fsschelp@yahoo.com</A> oder über die Messenger Dienste. Vielleicht findet sich Ihre Frage (mit Antwort) dann hier wieder!
+
+<B>Das Flugzeug schaukelt und springt beim Rollen auf dem Flughafenvorfeld (FS2000, FS2002). Wie kann ich das beheben?</B>
+Sie müssen ihrem Rollfeld eine andere Oberflächeneigenschaft zuweisen. In FS2000 ist das nur über den Trick einer "unsichtbaren Landebahn" möglich, unter Verwendung der "unsichtbaren Textur". Erstellen Sie einfach eine solche unsichtbare Landebahn, die so lang und breit ist, wie Sie es für Ihr Rollfeld benötigen. Für eine FS2002-Szenerie sollten Sie das Oberflächengebiet mit Attribut "weiche Rollfläche" benutzen.
+
+<B>Kann ich Originalflughäfen aus dem Flugsimulator in FS-Scenery-Creator laden?</B>
+Bisher bietet FS-Scenery-Creator diese Möglichkeit nicht. Allerdings können Sie über die Angabe der exakten Längen- und Breitengrad-Parameter auch einzelne Objekte sehr genau in eine bereits bestehende Szenerie platzieren.
+
+<B>Kann ich Objekte zu einem bereits bestehenden Originalflughafen zufügen?</B>
+Ja, normalerweise, ohne Besonderheiten beachten zu müssen.
+
+<B>Aber wie entferne ich einen Originalflughafen komplett aus dem Flugsimulator?</B>
+Aktivieren Sie das "Sichtbare Szenerie" Kästchen in in der Registerkarte "Ausschluß vorhandener Szenerie" im Szenerieeigenschaften-Dialogfenster.
+
+<B>Mein Flugzeug klebt am Boden fest und rollt nicht. An was liegt das? (FS 2000 und höher)</B>
+Sie müssen Ihrem Szeneriegebiet Bodeneigenschaften zuweisen. Verwenden Sie das Abflachgebiet, um eine gleichmässige Höhe zu setzen. Für FS2002, verwenden Sie das Oberflächengebiet mit Attribut "weiche Rollfläche".
+
+<B>Ich sehe merkwürdige Linien an meinen Taxiways. Wie kann ich das ändern?</B>
+Das ist beabsichtigt, da dasselbe Problem im Flugsimulator auftreten würde, wenn Sie einen Taxiway so zeichnen. Wenn Sie Linienabschnitte haben, die sich selbst überlappen (fast 180-Grad-Winkel), müssen Sie einen der Abschnitte abschalten. Wählen Sie den Punkt an und ändern Sie den Linientyp des zugehörigen Abschnitts auf "Unsichtbar".
+
+<B>Sind meine alten FS-Scenery-Creator-Projekte kompatibel zur neuen Version?</B>
+FS-Scenery-Creator-Projekte aus Version 1.1.x und 1.2.x können in Version 1.5. geladen werden. Alle etwa fehlenden Parameter werden mit Default-Standardwerten gefüllt. Allerdings können Dateien, die in einer späteren Programmversion bearbeitet wurden, nicht mehr mit einer früheren Version geladen werden. Beachten Sie, dass Abflachgebiete aus Version 1.1.x nicht geladen werden. Linien, die sowohl durchgezogen sind als auch Leuchtpunkte haben, werden nicht mehr unterstützt und werden als durchgezogene Linien geladen. "Stadt-" und "Tankstellen"-Objekte werden jetzt in Form von Makros unterstützt und als solche geladen.
+
+<B>Ich will meine mit "Airport" erstellten Projekte in FS-Scenery-Creator laden. Welche Probleme können auftauchen?</B>
+Der Konvertierungsvorgang ist nicht perfekt. Momentan können dynamische Objekte und die justierbaren programminternen Airport-Makros nicht geladen werden. Falls das Projekt irgendwelche Makros enthält, die Bestandteil des Airport-Programmpakets sind, muss Airport
+installiert sein, damit die Makros korrekt geladen werden können. Die Rotationswerte der Landebahnen und Startpositionen können etwas unkorrekt sein, da frühere Versionen von Airport (2.1 sowie frühere 2.6) bei der Berechnung der magnetischen Gradabweichung nicht ganz korrekt waren.
+
+<B>Ich erstelle Szenerie für FS2000, CFS2, FS2002, oder höher, und habe Texturen für Nachtbeleuchtung oder/und für Winter-/Frühling- etc. Jahreszeiten. Wie bekomme ich diese im Flugsimulator dargestellt?</B>
+Schauen Sie im Hilfeeintrag des Texturdialogs nach.
+
+<B>Während der Szeneriegenerierung erhalte ich "Inst_81: unknown command" Fehlermeldungen. Was kann ich da machen?</B>
+Der SCASM 2.5/2.8 -Compiler unterstützt diesen alten Befehl nicht mehr. Offensichtlich verwenden Sie eine Makrodatei, in der dieser alte Texturglättungsbefehl vorkommt. Sie können in der Fehlermeldung ersehen, welche Makrodatei das ist. Öffnen Sie diese Makrodatei mit einem Texteditor (z.B. notepad.exe) und ersetzen Sie alle Zeilen, die "Inst_81" lauten, durch "Smoothing( 1 )".
+
+<B>Diese FAQ-Hilfe löst mein Problem nicht. Was kann ich tun?</B>
+Benutzen Sie die Hilfefunktion "den Autor kontaktieren", um mir eine e-mail senden. 
+
+<B>Es gibt noch ein Feature, das ich bei FS-Scenery-Creator gerne hätte.</B>
+Benutzen Sie die Hilfefunktion "den Autor kontaktieren", um mir eine e-mail senden. 
+
+<B>I would like to contribute to the FS Scenery Creator project. How can I do so?</B>
+Zunächst, vielen, vielen Dank. Sie können das auf verschiedene Weise tun:.
+
+<UL>
+<LI>Bringen Sie Verbesserungsvorschläge an.
+<LI>Stellen Sie Ihre Objekt-Makros zur Verfügung.
+<LI>Übersetzen Sie das Programm in andere Sprachen.
+<LI>Tragen Sie zur Programmierung etwas bei.
+</UL>
+
+Benutzen Sie die Hilfefunktion "den Autor kontaktieren", um mir eine e-mail senden. 
+
+File: ui\index.html
+Title: Bedienoberfläche
+Level: 2
+Keywords: Bedienoberfläche
+
+Die FS Scenery Creator Benutzeroberfläche hält sich an die üblichen Windows-Konventionen, falls irgend möglich, um die Einlernzeit zu verkürzen. Wenn Sie jedoch Hilfe benötigen, sollen die folgenden Seiten Ihnen die Programmoberfläche von FS Scenery Creator erklären.
+
+File: ui\editor.html
+Title: Editorbefehle - Kurzanleitung
+Level: 3
+Keywords: Bedienoberfläche, Bedienoberfläche\Editor, Editor, Kurzanleitung
+
+FS Scenery Creator bietet eine intuitiv bedienbare mausgesteuerte Schnittstelle, um Objekte zu erstellen und zu plazieren. Wenn Sie aber Hilfe brauchen, wird diese Seite die ersten  Schritte zum eigenen Szeneriedesign erklären.
+
+Ein neues Objekt erstellen:
+Rechter Mausklick auf die Stelle, wo das Objekt entstehen soll. Das gewünschte Objekt auswählen.
+
+Ein Objekt anwählen:
+Linker Mausklick in den das Objekt umgebenden Kreis.
+
+Ein zugedecktes Objekt anwählen:
+Die Umschalt-Taste halten und linker Mausklick in den das Objekt umgebenden Kreis.
+
+Mehrere Objekte anwählen:
+Die Strg-Taste halten, während mit der linken Maustaste nacheinander auf mehrere Objekte geklickt wird. Ein nochmaliger linker Mausklick auf ein bereits angewähltes Objekt deselektiert dieses.
+
+Mehrere Objekte in einem Rechteck-Rahmen auswählen:
+Die linke Maustaste geklickt halten und ein Rechteckfenster um die gewünschten Objekte ziehen. Die Maustaste loslassen, sobald der Rahmen alle gewünschten Objekte umfasst.
+
+Die Arbeitsfläche neu zentrieren:
+Doppelklick mit der linken Maustaste auf die Stelle des gewünschten neuen Mittelpunkts.
+
+Die Arbeitsfläche bewegen:
+1) Die Scrollleisten rechts und unten am Bildschirm bewegen, oder 2) das evtl. Mausrad  drehen, um vertikal zu bewegen (horizontal: =dabei die Umschalttaste halten), oder 3) mit dem Mauscursor in irgendeine Ecke des Bilschirms gehen und dabei die Arbeitsfläche in kurzen Intervallen verschieben.
+
+Die Arbeitsfläche neu skalieren:
+Die Zoom-buttons aus der Werkzeugleiste verwenden, oder die plus/minus-Taste drücken, oder das Ausschnitt-Zoom verwenden: mit der gehaltenen linken Maustaste einen Rechteckrahmen um die gewünschte Region zeichnen, dann die "+"-Taste drücken, bevor die Maustaste losgelassen wird.
+
+Namen und Position des Objekts ablesen:
+Den Mauscursor über einen Objektkreis führen.
+
+Objekte grafisch verschieben:
+Linken Mausklick halten und das Objekt auf die gewünschte Position ziehen, bevor die Maustaste losgelassen wird. Änlich kann man auch mehrere Objekte gleichzeitig verschieben, nachdem man sie mit einem Rechteckrahmen markiert und angewählt hat, wie oben beschrieben.
+
+Eigenschaften von Objekten bearbeiten:
+Das Objekt anwählen, dann Umschalt+F4 drücken, oder rechter Mausklick auf das Objekt und dann "(Objekt)Eigenschaften" anwählen. Wenn sich mehrere Objekte unter dem Mauscursor befinden, kann das Objekt aus der Auswahlliste angewählt werden.
+
+Einen Punkt in einen <A HREF="reference\objects\polygon.html">Polygon</A>, <A HREF="reference\objects\taxiway.html">Taxiway</A>, <A HREF="reference\objects\road.html">Strasse</A>, <A HREF="reference\objects\river.html">Fluss</A>, <A HREF="reference\objects\line.html">Linie</A>, <A HREF="reference\objects\taxiwayline.html">Taxiway Linie</A>, oder <A HREF="reference\objects\flatarea.html">Flatten area</A> einfügen:
+Auf irgendeine Linie des Objekts klicken und den neu entstandenen Punkt an die gewünschte Position ziehen.
+
+File: ui\keys.html
+Title: Tastaturbefehle
+Level: 3
+Keywords: Bedienoberfläche, Bedienoberfläche\Tastaturbefehle, Editor, Tastaturbefehle, Kurzbefehle
+
+Die folgenden Arbeitsschritte können mit Tastaturbefehlen ausgeführt werden:.
+
+Ctrl+N:
+Neu
+
+Ctrl+O:
+Öffnen
+
+Ctrl+S:
+Speichern
+
+Beenden:
+Alt+F4
+
+Ausschneiden:
+Ctrl+X
+
+Kopieren:
+Ctrl+C
+
+Einfügen:
+Ctrl+V
+
+Löschen:
+Del
+
+Polygon anwählen:
+Ctrl+A
+
+Zoom erhöhen/Zoom in Rahmen:
+Plus (+)
+
+Zoom verkleinern:
+Minus (-)
+
+Hilfe:
+F1
+
+1 Grad im Uhrzeigersinn (rechts) drehen:
+Ctrl+R
+
+1 Grad gegen den Uhrzeigersinn (links) drehen:
+Ctrl+L
+
+Objekt um 1 Massstabeinheit verschieben:
+Ctrl+Pfeiltaste
+
+Objektposition fixieren:
+Ctrl+K
+
+Fixierte objektposition wieder freigeben:
+Ctrl+U
+
+Menü:
+Alt or F10
+
+Editor Menü (Rechtsklick):
+Shift+F10 oder Menü Taste
+
+Default-(Grundeinstellung-)Eigenschaften (Tab 1):
+F4
+
+Eigenschaften (Tab 2):
+F5 or F4
+
+Eigenschaften (Tab 3):
+F6
+
+Eigenschaften (Tab 4):
+F7
+
+Eigenschaften (Tab 5):
+F8
+
+Punkt einfügen:
+Einfg
+
+Symbol einfügen:
+Ctrl+S (in Textfeldern, die Texteingabe akzeptieren)
+
+File: ui\units.html
+Title: Masseinheiten
+Level: 3
+Keywords: Bedienoberfläche, Bedienoberfläche\Masseinheiten, Masseinheiten
+
+FS Scenery Creator version 1.5 bietet dem Szeneriedesigner eine leistungsfähige, aber einfach zu handhabende Schnittstelle für die Masseinheiten. In den meisten Textfeldern kann jetzt die Masseinheit im Feld selbst eingegeben werden. Wenn ein Eigenschaftsfenster zum erstenmal erscheint,zeigt Textfeld seinen numerischen Wert und die Masseinheit in ihrer Abkürzung. Die gezeigte Einheit wird normalerweise die in den <A HREF="ui\options\index.html">Voreinstellungen</A> ausgewählte Längenmasseinheit sein. Wenn man jetzt ein Eingabefeld ändert, kann man auch die Masseinheit mitändern, und  FS Scenery Creator wird die erforderliche Umrechnung vornehmen, nachdem der "OK"-button geklickt wurde. Wenn keine Einheit vorhanden ist, wird die als Grundeinstellung festgelegte Masseinheit angenommen.
+
+Sie können die folgenden Zusätze verwenden, um in einem Eingabefeld eine Zahleneingabe mit einer Masseinheit zu versehen:.
+
+Länge:
+m (Meter), ft (Fuss), mi (Meile), km (Kilometer), nm (nautische Meile)
+
+Rotation:
+°geo (geographische Gradzahl), °mag (magnetische Kompassgradzahl)
+
+File: ui\toolbar.html
+Title: Werkzeugleiste
+Level: 3
+Keywords: Bedienoberfläche, Bedienoberfläche\Werkzeugleiste, Werkzeugleiste
+
+Die Werkzeugleiste bietet einen bequemen Zugang zu häufig benutzten Funktionen. Um die Funktion eines buttons herauszufinden, einfach den Mauscursor über den button führen.
+
+File: ui\menus\index.html
+Title: Menüs
+Level: 3
+Keywords: Bedienoberfläche, Bedienoberfläche\Menüs, Menüs
+
+Viele der Funktionen in FS Scenery Creator können mit Menüs gestartet werden. Es gibt fünf Menüs, Datei, Bearbeiten, Ansicht, und Hilfe, die in der Menüleiste bzw. nach rechtem Mausklick im Editorfenster geöffnet werden können. Wahlweise auch mit der "Menü"-Taste oder mit Umschalt+F10.
+
+Einige Menüoptionen sind auch über die <A HREF="ui\toolbar.html">Werkzeugleiste</A> oder über <A HREF="ui\keys.html">Tastaturbefehle</A> zugänglich.
+
+File: ui\menus\file.html
+Title: Datei Menü
+Level: 4
+Keywords: Menüs, Menüs\Datei
+
+Neu:
+Löscht die Arbeitsfläche und startet ein neues Projekt.
+
+Öffnen:
+Öffnet eine existierende Projektdatei.
+
+Speichern:
+Speichert die Daten der Arbeitsfläche mit Beibehalten des Dateinamens.
+
+Speichern unter:
+Speichert die Daten der Arbeitsfläche mit Vergabe eines neuen Dateinamens.
+
+Importieren:
+Importiert eine Microsoft Flight Simulator Scenery -(.bgl-)Datei.
+
+Exportieren:
+Exportiert die momentanen Daten der Arbeitsfläche in Microsoft Flight Simulator Format mit den zuletzt gewählten Voreinstellungen.
+
+Export Scenery Wizard:
+Exportiert die momentanen Daten der Arbeitsfläche in Microsoft Flight Simulator Format.
+
+Dateiliste:
+Enthält die letzten vier bearbeiteten Projektdateien.
+
+Beenden:
+Beendet das Programm.
+
+File: ui\menus\edit.html
+Title: Bearbeiten-Menü
+Level: 4
+Keywords: Menüs, Menüs\Bearbeiten
+
+Ausschneiden:
+Kopiert die Auswahl in Zwischenablage und löscht sie von der Arbeitsfläche.
+
+Kopieren:
+Kopiert die Auswahl von der Arbeitsfläche in FS Scenery Creator´s interne Zwischenablage. Beachten Sie, dass sobald ein Punkt eines <A HREF="reference\objects\polygon.html">Polygons</A>, <A HREF="reference\objects\taxiway.html">Taxiway</A>, <A HREF="reference\objects\taxiwayline.html">Taxiway Linie</A>, <A HREF="reference\objects\road.html">Strasse</A>, <A HREF="reference\objects\river.html">Fluss</A>, <A HREF="reference\objects\line.html">Linie</A>, oder <A HREF="reference\objects\flatarea.html">Flatten area</A> angewählt wurde, damit das gesamte Objekt automatisch angewählt und in die Zwischenablage gespeichert wird.
+
+Einfügen:
+Kopiert die Daten aus der internen FS Scenery Creator Zwischenablage auf die Arbeitsfläche.
+
+Löschen:
+Löscht das ausgewählte Objekt von der Arbeitsfläche.
+
+Szenerieobjekte sortieren:
+Normalisiert die Darstellungsreihenfolge der Objekte: flache 2D-Objekte, dann 3D-Objekte, dann Navigationseinrichtungen.
+
+Polygon anwählen:
+Wählt alle Punkte des gerade bearbeiteten Polygons an.
+
+Lage verändern:
+Verschiebt oder dreht ein ausgewähltes Objekt bzw. die gesamte Szenerie.
+
+<A HREF="reference\scenery.html">Szenerie-Eigenschaften</A>:
+Bearbeitet die generellen Eigenschaften der Szenerie.
+
+File: ui\menüs\tools.html
+Title: Tools Menü
+Level: 4
+Keywords: Menüs, Menüs\Tools
+
+<A HREF="ui\options\index.html">Voreinstellungen</A>:
+Ändert das Aussehen der Oberfläche und das Verhalten von FS Scenery Creator.
+
+Sprache:
+Ändert die Landessprache, in der die Eigenschaftsfenster und Hilfedateien erscheinen.
+
+File: ui\menus\view.html
+Title: Ansicht Menü
+Level: 4
+Keywords: Menüs, Menüs\Ansicht
+
+Szenerieobjekte:
+Zeigt eine Liste aller Objekte in der Szenerie, nach Objekttypen sortiert.
+
+Zoom vergrössern:
+Skaliert die Arbeitsfläche neu zum feinsten Zoom Niveau.
+
+Zoom verkleinern:
+Skaliert die Arbeitsfläche neu zum gröbsten Zoom Niveau.
+
+Zoom:
+Skaliert die Arbeitsfläche neu mit frei einzugebendem Zoom Niveau.
+
+Zoom Standard:
+Skaliert die Arbeitsfläche neu zum Normal Zoom und zentriert sie zum Ursprung.
+
+Zum vordersten:
+Bringt das gerade angewählte Objekt auf die Spitze des Stapels, wo es zuletzt gezeichnet wird.
+
+Zum hintersten:
+Bringt das gerade angewählte Objekt ganz unten in den Stapel, wo es zuerst gezeichnet wird.
+
+Werkzeugleiste:
+Schaltet die Werkzeugleiste an bzw. ab.
+
+Statusleiste:
+Schaltet die Statusleiste an bzw. ab.
+
+Scrollleiste:
+Schaltet die Scrollleiste an bzw. ab.
+
+File: ui\menus\help.html
+Title: Hilfe Menu
+Level: 4
+Keywords: Menüs, Menüs\Hilfe
+
+Hilfethemen:
+Zeigt die Übersicht über die Hilfethemen.
+
+Tutorials:
+Aktiviert eine Liste von Anleitungen, die Ihnen die Grundprinzipien zum Programm und zum Szeneriedesign erläutern.
+
+Häufigste Fragen (FAQ):
+Zeigt eine Liste mit am häufigsten vorkommenden Problemen und Lösungen.
+
+Neues:
+Zeigt die Änderungen, die das Programm erfahren hat. 
+
+Tipp des Tages:
+Zeigt das "Tipp des Tages"-Fenster.
+
+Autor kontaktieren:
+Öffnet ein Fenster, um eine e-mail an den Autor zu senden. (Bitte in Englisch)
+
+FS Scenery Creator im Internet:
+Öffnet Ihren Web-Browser mit der FS Scenery Creator Programmwebseite (Englisch).
+
+Über FS Scenery Creator:
+Erklärt, was FS Scenery Creator ist.
+
+Anerkennung:
+Zeigt eine Liste derjenigen, die die Entwicklung von FS Scenery Creator unterstützen.
+
+File: ui\options\index.html
+Title: Voreinstellungen
+Level: 3
+Keywords: Voreinstellungen
+
+Im Fenster für die Voreinstellungen können Sie das Verhalten und Layout von FS Scenery Creator anpassen. Die Voreinstellungen sind in sechs Kategorien zusammengefasst. Jede dieser Kategorien wird auf den folgenden Seiten erklärt.
+
+File: ui\options\settings.html
+Title: Einstellungen
+Level: 4
+Keywords: Einstellungen, Voreinstellungen\Einstellungen
+
+<H4>generell</H4>
+
+Fenster-Status beibehalten:
+Sichert die Fensterpositionen auch für einen Neustart des Programms.
+
+Kurze Dateiliste:
+Zeigt nur den kurzen Dateinamen in der Dateiliste
+
+Zeige Szenerie-Eigenschaften bei neu angelegter Datei:
+Öffnet automatisch das Fenster für die generellen Szenerieeigenschaften, sobald eine neue Datei erzeugt wird.
+
+Letzte Objekteigenschaften beibehalten:
+Sichert die Werte für die Objekteigenschaften, die beim Erzeugen des letzten Objekts gesetzt wurden, und übernimmt sie -passend zum Objekttyp- beim Erzeugen des nächsten Objekts.
+
+Anzeige Minutenbruchteile:
+Wechselt zwischen den zwei verschiedenen Formaten für Längen- und Breitengrad (Dezimalgrad bzw. Minutengrad)
+
+Standard-Masseinheit:
+Wählt das Masseinheit-System für die Grundeinstellung bei den Programm-Eingabefeldern.
+
+Ausrichtung:
+Wählt das Kompass-System, mit der das Programm die grundeingestellten Graddrehungen anzeigt.
+
+Alte Menüansicht:
+Zeigt das Editor-Popup-Menü im alten Stil der Programmversionen 1.2 und früher.
+
+Speichern komprimierter Dateien:
+Entfernt unnötige Datenmengen aus FS Scenery Creator Projektdateien, um Festplattenspeicher zu sparen. Das Deaktivieren dieser Funktion erhöht nicht die Arbeitsgeschwindigkeit.
+
+Jedes Mal das Exportieren-Fenster anzeigen:
+Wenn die Option deaktiviert ist, dann benutzt das <A HREF="ui\menus\file.html">Exportieren-</A>Feature die letztgewählten Einstellungen zum Erzeugen der Szenerie.
+
+Makro-Voreinstellungen immer übernehmen:
+Jedes Mal, wenn ein im Makroauswahl-Fenster ein neues Makro angewählt wird, werden die Text- und Parameterfelder mit Vorgabewerten gefüllt, soweit sie im Makro enthalten sind. Wenn diese Option deaktiviert ist, werden immer die Einstellungen des letzterzeugten Makroobjekts übernommen.
+
+<HR COLOR="BLACK" NOSHADE>
+
+<H4>Flight Simulator Version</H4>
+
+Wählt die Version des MS-Flugsimulators aus, für die die Szenerie bestimmt ist. Die Veränderung dieser Option wirkt sich auch auf die entsprechende Einstellung in den <A HREF="ui\options\locations.html">Pfadangaben tab</A> aus, falls eine entsprechende FS-Version auf Ihrem System installiert ist.
+
+<HR COLOR="BLACK" NOSHADE>
+
+<H4>Export</H4>
+
+FS-Konfigurations-Datei mitbearbeiten:
+Erlaubt dem Programm, falls nötig, die Datei scenery.cfg des Microsoft Flugsimulator anzupassen.
+
+Komprimieren von bgl-Dateien:
+Erzeugt automatisch komprimierte Szenerie-bgl-Dateien. Dies kann Festplattenspeicher sparen und beschleunigt das Laden der Szenerie im Microsoft Flugsimulator.
+
+Zwischenproduktdateien beibehalten:
+Wenn deaktiviert, dann werden die Zwischenproduktdateien, die beim Compilen der Szenerie in das endgültige bgl-Format benötigt werden, danach automatisch gelöscht. Diese sogenannten ".sca"-Dateien werden jedoch nur Kennern manchmal von Nutzen sein und sind für die Darstellung im Flugsimulator nicht notwendig.
+
+Vor dem Compilen Dateisichern anfordern:
+Fragt nach dem Sichern der Projektdatei, wenn die Szenerie compiliert wird.
+
+<HR COLOR="BLACK" NOSHADE>
+
+<H4>Erscheinungsbild</H4>
+
+Mauszeiger-Figur:
+Wählt einen bestimmten Mauszeiger.
+
+Zeige Kreise um Objekte:
+Zeigt Kreise um den Mittelpunkt jedes Objekts.
+
+Zeige Kreise um Punkte:
+Zeigt Kreise um Punkte, die einen Polygon, Taxiway, Strasse, Fluss, Linie oder Flatten area bilden.
+
+Punkte zur nächstgelegenen Linie heranführen:
+Wenn die Positionen nach einer Objektverschiebung neu berechnet werden, werden die Punkte, die nah an einer bereits existierenden Linie stehen, automatisch passend an diese Linie angelegt.
+
+Texturierte/farbige Polygone:
+Zeigt Polygone mit der jeweils ausgewählten Farbe oder Textur.
+
+Texturierte/farbige Linien:
+Zeigt Taxiways, Strassen, Flüsse oder Linien mit der ausgewählten Farbe oder Textur.
+
+Texturierte/farbige 3D-Objekte:
+Zeigt Gebäude oder Makros mit Textur oder Farbe.
+
+Zeige Kompass:
+Zeigt einen Kompass, der zum magnetischen Nordpol zeigt, an der oberen rechten Ecke des Arbeitsfensters.
+
+<HR COLOR="BLACK" NOSHADE>
+
+<H4>Sichtbare Objekte</H4>
+Eine Box deaktivieren, um Objekte der jeweiligen Gruppe auf der Arbeitsfläche unsichtbar zu machen.
+
+File: ui\options\locations.html
+Title: Pfadangaben
+Level: 4
+Keywords: Voreinstellungen, Voreinstellungen\Pfadangaben
+
+Diese Karte erlaubt Ihnen, den Ort der benötigten Dateien und Ordner auf Ihrer Festplatte anzugeben.
+
+FS Ordner:
+Der Ordner, wo Sie Ihren MS-Flugsimulator installiert haben.
+
+Textur-Ordner:
+Der Ordner, in dem das Texturauswahlfenster zuerst die zu wählende Textur suchen wird.
+
+Compiler:
+Der Ordner, wo der Szenerie-Compiler (scasm.exe oder fsc.exe) installiert ist.
+
+BGL Komprimierer:
+Der Ordner, der die bglzip.exe Datei enthält.
+
+Text Editor:
+Der Ordner Ihres bevorzugten Texteditors.
+
+Makro-Ordner:
+Sie können bis zu fünf Ordner bestimmen, die (mit Unterverzeichnissen) in der Makro-Auswahlbox erscheinen.
+
+Makro-Bild-Ordner:
+Bis zu fünf Ordner können festgelegt werden, in denen FS Scenery Creator ein Vorschaubild des Makros sucht, falls vorhanden.
+
+File: ui\options\colors.html
+Title: Farben
+Level: 4
+Keywords: Voreinstellungen, Voreinstellungen\Farben
+
+In dieser Karte können Sie das Erscheinungsbild der Arbeitsoberfläche verändern. Sie können aus einem vordefinierten Schema auswählen, oder selbst eines erstellen. Wenn Sie die "Texturierte/farbige Polygone"-Option aktiviert haben, dann haben diese Farben Einfluss auf die kleinen Kreise um die Objekte.
+
+File: ui\options\macros.html
+Title: Bevorzugte Makros
+Level: 4
+Keywords: Voreinstellungen, Voreinstellungen\Bevorzugte Makros
+
+Diese Karte kann die Pfadangaben für einige oft benutzte Makros setzen, die in der Hierarchie der Makro-Auswahlbox erscheinen.
+
+File: ui\options\tools.html
+Title: Bevorzugte Tools
+Level: 4
+Keywords: Voreinstellungen, Voreinstellungen\Bevorzugte Tools
+
+Hier können Sie eine Anzahl von Programmen festlegen, die Sie vom Tools-Menü aus starten können.
+
+File: ui\options\miscell.html
+Title: Verschiedenes
+Level: 4
+Keywords: Voreinstellungen, Voreinstellungen\Verschiedenes
+
+Hier finden sich Einstellungen, die in keine andere Kategorie hineinpassen.
+
+Automatisch sichern:
+Setzt das Zeitintervall, in dem FS Scenery Creator automatisch den Inhalt der Arbeitsfläche in einer Projektdatei speichert, um möglichem Datenverlust vorzubeugen.
+
+Gitter:
+Setzen Sie den Abstand zwischen den Gitterlinien.
+
+Suchfilter für Texturdateien:
+Legt die Dateitypen fest, die als Texturen betrachtet werden und in der Textur-Auswahlbox erscheinen.
+
+File: reference\index.html
+Title: Anleitung
+Level: 2
+Keywords: Anleitung
+
+Dieser Abschnitt beschreibt einige Details zum FS Scenery Creator.
+
+File: reference\scenery.html
+Title: Generelle Szenerieeigenschaften
+Level: 3
+Keywords: Szenerieeigenschaften, Header, Generelle Szenerieeigenschaften
+
+Hier wählen Sie bestimmte Eigenschaften aus, die für Ihre gesamte Szenerie gültig sind. Der Rest dieser Seite beschreibt diese Einstellungen.
+
+Autor:
+Ihr Name.
+
+Copyright:
+Hier können Sie eine beliebige Information zu Ihrem Urheberrechtsschutz eintragen.
+
+Name:
+Legt den Namen Ihrer Szenerie oder des Flughafens fest.
+
+Sprach-Code:
+Wählen Sie den Sprach-Code des Flugsimulators, in dem Ihre Szenerie erscheinen soll.
+
+Region:
+Wählen Sie aus dem Auswahlmenü die Region Ihrer Szenerie.
+
+Land:
+Tragen Sie den Namen des Landes ein, in dem sich Ihre Szenerie befindet.
+
+Bundesstaat/Provinz:
+Falls vorhanden, geben Sie zusätzlich den zugehörigen Bundesstaat/Provinz ein.
+
+Stadt:
+Geben Sie den Namen der Stadt ein, in der sich Ihre Szenerie befindet.
+
+ICAO ID:
+Geben Sie den ICAO-code des Flughafens ein, z.B. LFSZ (Zürich) oder EDDF (Frankfurt).
+
+Breite/Länge:
+Tragen Sie hier Längen- und Breitengrad Ihres Szeneriemittelpunkts ein.
+
+Rotation:
+Geben Sie den Gradwert ein, in dem evtl. Ihre Szenerie in Relation zum wahren Nordpol gedreht werden  soll.
+
+Horizontal, Vertikal:
+Geben Sie den Ausdehnungsbereich Ihrer Szenerie an.
+
+Szeneriehöhe:
+Tragen Sie hier die Höhe ein, auf der sich Ihre Szenerie befindet.
+
+Magnetische Abweichung:
+Tragen Sie die Abweichung zwischen echtem und magnetischem Nordpol an dem betreffenden Längen- und Breitengrad ein. In den meisten Fällen kann dies durch das Programm automatisch bestimmt werden, und dieses Feld ist dann stets inaktiv.
+
+Ausschluß vorhandener Szenerie:
+Wenn an der betreffenden Stelle bereits eine Originalszenerie mit 3D-Objekten oder NAV-Hilfen existiert, können Sie diese durch Anwahl der betreffenden Boxen von der Darstellung im Flugsimulator ausschliessen.
+
+Synthetische Szenerie:
+Für den Combat Flight Simulator 1 und frühere FS-Versionen, wählen Sie eine Untergrund-Textur zusammen mit Darstellungsmassstab aus den gegebenen Optionen. Wenn die Originalszenerie bereits die gewünschte Höhe und eine passende Untergrundtextur an dieser Stelle aufweist, können Sie auch "keine" anwählen. "Keine" sollten Sie auch immer dann anwählen, wenn Sie mit FS2000 und neuer arbeiten. Man kann zwar teilweise mit synthetischer Szenerie ein Gebiet im FS2000 abflachen, oft führt dies jedoch zu Darstellungsproblemen und Artefakten. Es wird daher empfohlen, für FS2000 und neuer nur die <A HREF="reference\objects\flatarea.html">flat area</A> zum Abflachen eines Gebietes zu  verwenden.
+
+File: reference\objects\index.html
+Title: Objekt Anleitung
+Level: 3
+Keywords: Objekte
+
+FS Scenery Creator macht Szeneriedesign einfach zur Arbeit mit Objektgruppen. Jedes Szenerieobjekt repräsentiert ein Darstellungselement im Flugsimulator. Objekte haben eine Anzahl mit Ihnen fest verknüpfter <A HREF="reference\properties\index.html">Eigenschaften</A>, und diese Eigenschaften sind immer typisch für den jeweiligen Objekttyp. Wählen Sie aus der Liste von Objekten, um mehr darüber zu erfahren.
+
+<B>2D Objekte</B>
+<UL>
+<LI><A HREF="reference\objects\runway.html">Landebahn</A>
+<LI><A HREF="reference\objects\polygon.html">Polygon</A>
+<LI><A HREF="reference\objects\taxiway.html">Taxiway</A>
+<LI><A HREF="reference\objects\taxiwayline.html">Taxiway Linie</A>
+<LI><A HREF="reference\objects\road.html">Strasse</A>
+<LI><A HREF="reference\objects\river.html">River</A>
+<LI><A HREF="reference\objects\line.html">Line</A>
+</UL>
+
+<B>3D Objekte</B>
+<UL>
+<LI><A HREF="reference\objects\building.html">Gebäude</A>
+<LI><A HREF="reference\objects\macro.html">Makro</A>
+</UL>
+
+<B>Radio Objekte</B>
+<UL>
+<LI><A HREF="reference\objects\atis.html">ATIS</A>
+<LI><A HREF="reference\objects\vor.html">VOR</A>
+<LI><A HREF="reference\objects\ndb.html">NDB</A>
+<LI><A HREF="reference\objects\tower.html">Tower</A>
+</UL>
+
+<B>Verschiedene Objekte</B>
+<UL>
+<LI><A HREF="reference\objects\menuentry.html">Menü Eintrag</A>
+<LI><A HREF="reference\objects\background.html">Hintergrundbild</A>
+<LI><A HREF="reference\objects\flatarea.html">Abflachgebiet</A>
+<LI><A HREF="reference\objects\surfacearea.html">Oberflächengebiet</A>
+<LI><A HREF="reference\objects\exclusion.html">Ausschluß</A>
+<LI><A HREF="reference\objects\code.html">SCASM Code</A>
+</UL>
+
+File: reference\objects\runway.html
+Title: Landebahn
+Level: 4
+Keywords: Objekte, Objekte\Landebahn
+
+Die Landebahn ist eins der wichtigsten Szenerieelemente im Flugsimulator und definiert den Flughafen. Fast immer wird eine von Ihnen erstellte Szenerie eine oder mehrere Landebahnen enthalten.
+
+Es gibt verschiedene Eigenschaften, die die Enden einer Landebahn festlegen. Für den Zweck des Szeneriedesign liegt das das nähere Ende in der Richtung, die in der Eigenschaftskarte angezeigt wird, und das entferntere Ende liegt in der Gegenrichtung. Das InstrumentenAnflug-System (ILS) kann auch für beide Enden der Landebahn gesetzt werden.
+
+Wenn Sie eine unsichtbare Landebahn erstellen möchten (um im FS2000 die Bodenrollfläche zu glätten), setzen Sie bei der Auswahl der Landebahntextur das Attribut "unsichtbar". Für den FS2002 können Sie jedoch ein "Oberflächengebiet" mit weicher Rollfläche setzen. 
+
+File: reference\objects\polygon.html
+Title: Polygon
+Level: 4
+Keywords: Objekte, Objekte\Polygon
+
+Der Polygon definiert eine Fläche auf dem Terrain. Der Polygon kann mit einer <A HREF="reference\properties\texture.html">Textur</A> oder mit einer <A HREF="reference\properties\color.html">Farbe</A> versehen werden. Optional können die Kanten mit leuchtenden Punkten ("taxilights") versehen werden, man kann mit Polygonen auch kleine Hügel erstellen, indem  man einen Polygon mit einem anderen Polygon verbindet, welcher als Basis für das Plateau dient. FS Scenery Creator kann dann aus den beiden Polygonen die Aussenkontur des Hügels extrapolieren. Damit kann man allerdings beileibe keine harte, befahrbare Terrainoberfläche erstellen. Um dies zu tun, sollte man das <A HREF="reference\objects\flatarea.html">Abflachgebiet</A> verwenden.
+
+Polygone werden durch mindestens drei oder fast beliebig viele <A HREF="reference\objects\point.html">Punkte</A> definiert, die unabhängig voneinander verschoben werden können.
+
+File: reference\objects\taxiway.html
+Title: Taxiway
+Level: 4
+Keywords: Objekte, Objekte\Taxiway
+
+Der Taxiway verbindet die Landebahn mit dem Fluggast-Terminal. In FS Scenery Creator können Sie einen Taxiway aus einer Serie miteinander verbundener Punkte erstellen. Für fortgeschrittene Anwender kann es oft günstig für das Arbeitstempo sein, wenn die Unterbrechungs-Option in den Eigenschaften bestimmter Taxiway-<A HREF="reference\objects\point.html">Punkte</A> verwendet wird, um mit einem Taxiway-Objekt ein Netzwerk für den gesamten Flughafen zu erstellen. Taxiways können optional mit blauen Lichtern berandet werden, und haben eine Mittellinie. Viele Designer benutzen auch <A HREF="reference\objects\taxiway.html">Polygone</A> mit blauen Randpunktlichtern, um eine bessere Kontrolle über das Aussehen des Taxiways zu haben.
+
+Taxiways werden durch zwei oder mehr <A HREF="reference\objects\point.html">Punkte</A> definiert, die unabhängig voneinander verschoben werden können.
+
+File: reference\objects\road.html
+Title: Strassen
+Level: 4
+Keywords: Objekte, Objekte\Strassen
+
+Im Flugsimulator sind Strassen eigentlich nur für dekorative Zwecke da. Die Erstellung im FS Scenery Creator ist sehr ähnlich wie wie beim <A HREF="reference\objects\taxiway.html">Taxiway</A>. Strassen entstehen aus einer Serie von verbundenen Punkten. Man kann Strassen optional mit sich nachts bewegenden Punktlichtern erscheinen lassen.
+
+Strassen bestehen aus zwei oder mehr <A HREF="reference\objects\point.html">Punkten</A>, die unabhängig voneinander verschiebbar sind.
+
+File: reference\objects\river.html
+Title: Flüsse
+Level: 4
+Keywords: Objekte, Objekte\Flüsse
+
+Einen Fluss zu erzeugen, ist fast dasselbe wie bei einem <A HREF="reference\objects\taxiway.html">Taxiway</A>. Bitte lesen Sie den betreffenden  Abschnitt.
+
+Flüsse werden durch zwei oder mehr <A HREF="reference\objects\point.html">Punkte</A> definiert, die unabhängig voneinander verschoben werden können.
+
+File: reference\objects\line.html
+Title: Linie
+Level: 4
+Keywords: Objekte, Objekte\Linie
+
+Wie der Name schon sagt, wird damit im Flugsimulator eine Linie dargestellt. Man kann damit unter anderem eine Mittellinie für einen Taxiway herstellen, oder Stromleitungen. Aber eine sehr leistungsfähige Eigenschaft ist es, dass Sie eine Linie als Perlschnur setzen können, auf der 3D-Objekte wie <A HREF="reference\objects\building.html">Gebäude</A>  oder <A HREF="reference\objects\macro.html">Makros</A> gesetzt werden, die dann in einem festgelegten Intervall wiederholt werden. Dazu braucht lediglich ein Objekt aus der Liste angewählt und das Wiederholungsintervall gesetzt zu werden. Vorsicht... man kann sich damit leicht die Darstellungsgeschwindigkeit des Flugsimulators zunichte machen, weil man damit leicht Hunderte von 3D-Objekten in die Landschaft setzt.
+
+Linien werden durch zwei oder mehr <A HREF="reference\objects\point.html">Punkte</A> definiert, die unabhängig voneinander verschoben werden können.
+
+File: reference\objects\taxiwayline.html
+Title: Taxiway Linie
+Level: 4
+Keywords: Objekte, Objekte\Taxiway Linie
+
+Die Taxiway Linie ermöglicht es Ihnen, die neuen Taxiway-Markierungen für den FS2002 zu verwenden. Nicht für ältere FS-Versionen. Sie können aus sieben verschiedenen Arten von Linienarten auswählen. Wenn Sie gebogene Kurven herstellen wollen, setzen Sie den Biegungsradius auf einen Wert grösser als 0. Um den Biegungsradius richtig zu verstehen, stellen Sie sich einen Kreis mit diesem Radius vor. Der Kreis sollte beide Linien schneiden. Der Bogen dieses Kreises zwischen den Ecken wird dann Ihre gekurvte Taxi-Linie sein.
+
+Taxiway-Linien werden durch zwei oder mehr <A HREF="reference\objects\point.html">Punkte</A> definiert, die unabhängig voneinander verschoben werden können.
+
+File: reference\objects\building.html
+Title: Gebäude
+Level: 4
+Keywords: Objekte, Objekte\Gebäude
+
+Die Gebäudefunktion kann benutzt werden, um Häuser, Bürogebäude oder Flughafen-Terminals entstehen zu lassen. Ab FS2000 und aufwärts kann man die erweiterte Gebäudefunktion verwenden, um aus einem Pool von bereits im FS vorhandenen Texturen einen gewünschten Bautyp zusammenzustellen. Ein erweitertes Gebäude hat 4 verschiedene Ebenen: Erdgeschoss, Zwischengeschoss, Hochgeschoss, und Dach. Jede Ebene kann angepasst mit einer bestimmten Höhe, Textur und Texturskalierung versehen werden. Im Gebäude-Editor erhalten Sie eine Voransicht über die Texturen mit der von Ihnen gewählten Skalierung.
+
+Neben dem standardmässigen Flachdach kann auch ein pyramidenförmiges, gesatteltes, oder eine mit n-Kanten versehene Dach-/Hausform erstellt werden.
+
+File: reference\objects\macro.html
+Title: Makros
+Level: 4
+Keywords: Objekte, Objekte\Makros, Objekte\Einsetzen, Einsetzen
+
+Das Makro ist dazu fähig, die vordefinierten Bahnen des FS Scenery Creator wesentlich zu erweitern. Makros werden von Hobby-Designern auf der ganzen Welt stets neu entwickelt, und kommen gewöhnlich in verschiedenen Standard Formaten, die alle von FS Scenery Creator verarbeitet werden können. Normalerweise ist ein Makro ein komplexes Objekt mit vielen Strukturen und mit aufgelegten Texturen; z.B. ein Baum, ein Gebäude, oder ein Flugzeug. Oft enthalten sie Parameter, die Sie als Anwender noch festlegen müssen, so z.B. die <A HREF="reference\properties\color.html">Farbe</A> oder manchmal auch die Ausdehnung des Objekts. Diese Parameter können in der dritten Fensterkarte in den Makroeigenschaften eingegeben werden. 
+
+Weil der Gebrauch von sogenannten "includes" inzwischen obsolet ist, werden "includes" von FS Scenery Creator nicht mehr direkt unterstützt. Wenn Sie jedoch ein solches verwenden müssen, benutzen Sie es einfach als Makro-Objekt und geben Sie den Dateinamen der Include-Datei an. Dabei werden irgendwelche Parameter-Eingaben natürlich ignoriert.
+
+File: reference\objects\atis.html
+Title: ATIS Object
+Level: 4
+Keywords: Objects, Objects\ATIS
+
+FS2000 und aufwärts unterstützen diese Option nicht.
+Ein ATIS (Automatic Terminal Information System) sendet Information über Flugbedingungen rund um einen Flughafen. Der Text ist auf 255 Zeichen limitiert. Es gibt mehrere shortcut-Textbausteine, um die message auf das erlaubte Limit abzukürzen, oder um die momentanen Wetterbedingungen einzufügen. Diese Sequenzen können durch Klicken auf den "Einfügen"-button unter dem Textfeld angewählt werden. Das ATIS-Objekt kann ab FS2000 und neuere Versionen nicht mehr gesetzt werden, weil inwzischen eine neue "Voice"-Funktion integriert wurde, die nicht mehr Bestandteil des Szeneriedesigns ist.
+
+File: reference\objects\vor.html
+Title: VOR
+Level: 4
+Keywords: Objekte, Objekte\VOR
+
+Ein VOR (Very High Frequency Omnidirectional Range) ist ein Sender, der in der Flugnavigation benutzt wird. Um mehr über VORs zu erfahren, lesen Sie das Flugsimulator Handbuch.
+
+Wenn die Funktion "Eintrag im Facility Database" aktiviert ist, dann wird die Information über das VOR in das "Airport and Facility Directory database (AFD)" eingetragen und ist dann auch in der GPS Kartenansicht verfügbar.
+
+File: reference\objects\ndb.html
+Title: NDB
+Level: 4
+Keywords: Objekte, Objekte\NDB
+
+Ein NDB (Non-Directional Radio Beacon) ist ein Sender, der zur Flugnavigation benutzt wird. Um mehr über NDBs zu erfahren, lesen Sie das Flugsimulator Handbuch.
+
+Wenn die Funktion "Eintrag im Facility Database" aktiviert ist, dann wird die Information über das NDB in das "Airport and Facility Directory database (AFD)" eingetragen und ist dann auch in der GPS Kartenansicht verfügbar.
+
+File: reference\objects\tower.html
+Title: Kontrollturm
+Level: 4
+Keywords: Objekte, Objecte\Kontrollturm
+
+Der Kontrollturm (tower) bestimmt die Position der "Kontrollturmansicht" im Flugsimulator, und auch bestimmte Frequenzen, die dem Flughafen zugewiesen sind. Weil jede Szeneriedatei nur einen Flughafen-Eintrag haben kann, kann es nur einen Kontrollturm für jeweils ein Projekt geben.
+
+File: reference\objects\menuentry.html
+Title: Menü-Eintrag
+Level: 4
+Keywords: Objekte, Objekte\Menü-Eintrag
+
+Der Menü-Eintrag gibt eine Position in Ihrer Szenerie vor, auf die Ihr Flugzeug gesetzt wird, wenn Sie dies im Flugsimulator-Auswahlmenü anwählen. Diese Einträge können in FS2000 und neuer in der "Szenerie 6.0 und früher" Karte abgerufen werden. Alternativ können Sie aber auch (ab FS2000) einen Direkteintrag in das AFD (Airport and Facility Directory) vornehmen. Beim Erstellen der Landebahn aktivieren Sie die "Auswahlhilfs-Eintrag"-Funktion, und dann werden die AFD-Einträge für beide Enden der Landebahn automatisch generiert.
+
+File: reference\objects\background.html
+Title: Hintergrundbild
+Level: 4
+Keywords: Objekte, Objekte\Hintergrundbild
+
+Sie können die Arbeitsfläche des FS Scenery Creator mit einer Bilddatei hinterlegen, um ein exaktes Plazieren von Objekten zu ermöglichen. Wenn die "...Sichtbar"-Option aktiviert ist, dann wird dieses Bild sogar im Flugsimulator als Bodentextur sichtbar.
+
+Idealerweise verwenden Sie dafür ein Satellitenfoto, ein Luftbild, oder ein Scanbild einer Landkarte. Sie benötigen natürlich eine Massstabangabe in Metern/pixel oder die tatsächlichen Koordinaten von zwei diagonalen Ecken des Bildes, um es akkurat zu plazieren. Viele Satellitenbilder haben eine Messfunktion, mit der Sie einen kleinen Massstab mit bekannter Länge in das Bild einblenden können. Dann brauchen Sie nur noch die Länge des Messbalkens durch die Zahl der dazwischenliegenden Bildpixel zu dividieren (in einem Bildprogramm mit dem Cursor ablesen), und Sie haben ihren Bildmassstab.
+
+<B>Anmerkung:</B> Wenn Sie ein in FS sichtbares Bild plazieren, kann FS Scenery Creator eine FS-kompatible umgerechnete Bitmap in den Textur-Zielordner des Flugsimulators ablegen. Vergessen Sie nicht, diese und andere benötigte Texturen mitzuliefern, wenn Sie die Szenerie an andere weitergeben (Internet).
+
+File: reference\objects\flatarea.html
+Title: Abflachgebiet
+Level: 4
+Keywords: Objekte, Objekte\Abflachgebiet
+
+Ein Abflachgebiet definiert ein Oberflächenniveau für Ihren Flughafen und muß fast immer dann verwendet werden, wenn Sie in einem Bereich arbeiten, wo es noch keinen von MS erstellten Standardflughafen für den FS 2000, 2002 bzw. Combat Flight Simulator 2 gibt. Für den FS 98, für Combat Flight Simulator 1 und früher, verwenden Sie die <A HREF="reference\scenery.html">Synthetische Szenerie</A>. Für den FS 2002, verwenden sie ein Abflachgebiet und zusätzlich ein <A HREF="reference\objects\surfacearea.html">Surface Area</A>, wenn auf Ihrem Szeneriegebiet vorher standardmässig nur Wasser vorhanden war.
+
+Wählen Sie aus zwei möglichen Wegen, um Ihre Szenerie abzuflachen:.
+
+<UL>
+<LI><B>Flatten Switch (scenery.cfg):</B> Dies ist ein spezieller Eintrag in der  Konfigurationsdatei FS\scenery.cfg, der die Information für das Abflachen enthält. Diese Methode ist auf einen "Flatten"-Bereich pro Szenerie-Eintrag limitiert. Verwenden sie stets die Area16N-Methode, es sei denn, sie haben gute Gründe für den Flatten Switch.
+<LI><B>Area16N:</B> Dies wird für den FS 2000, FS 2002 und Combat Flight Simulator 2 empfohlen. Es wird eine neue bgl-Szeneriedatei erzeugt, die die flatten-Befehle enthält, praktisch ohne Limit für die Zahl und Grösse der Abflachgebiete. Jedes Abflachgebiet kann evtl. Abhänge erzeugen, um sich an die normale Standard Terrainhöhe anzupassen.
+</UL>
+
+Abflachgebiete bestehen aus drei oder mehr <A HREF="reference\objects\point.html">Punkten</A>, die unabhängig voneinander versetzt werden können.
+
+File: reference\objects\surfacearea.html
+Title: Oberflächengebiet
+Level: 4
+Keywords: Objekte, Objekte\Oberflächengebiet
+
+Ein Oberflächengebiet kann entweder eine harte Plattform (z.B. Hubschrauberlandeplatz) erzeugen, oder die Bodeneigenschaften des Terrains verändern (Beton, Gras, Wasser). Wenn Sie in einem Bereich arbeiten, wo in der FS 2002 Originalszenerie kein Flughafen bereits existiert, werden Sie fast immer ein Oberflächengebiet brauchen. Um dann die Oberfläche rollfähig "weich" zu machen, müssen Sie ein Oberflächengebiet mit "Weich"-Option erstellen, um den Bereich roll- und landefähig zu machen.
+
+File: reference\objects\exclusion.html
+Title: Ausschluß vorhandener Szenerie
+Level: 4
+Keywords: Objekte, Objekte\Ausschluß vorhandener Szenerie
+
+Der Szenerieausschluß enfernt Teile einer bereits in Ihrem Arbeitsgebiet vorhandenen Szenerie. Wenn Sie in einem Bereich arbeiten, wo es bereits einen existierenden Flughafen im FS gibt, werden Sie fast immer diese Ausschluß-Option verwenden, damit nicht die Originalobjekte durch ihre Szenerie durchscheinen.
+
+File: reference\objects\code.html
+Title: SCASM Code
+Level: 4
+Keywords: Objekte, Objekte\SCASM Code
+
+SCASM Code schreibt die Rohdaten der Szenerie in einer Szenerie-Assembler-Sprache. Das Objekt wurde implementiert, um Standardobjekte mit einem Import-feature zu versehen und wird eigentlich im normalen Szeneriedesign nicht gebraucht. Die Dokumentation der SCASM-Assembler-Sprache ist im FSSC\Scasm-Unterverzeichnis zu finden.
+
+File: reference\objects\point.html
+Title: Punkte
+Level: 4
+Keywords: Objekte, Objekte\Punkte
+
+Der Punkt definiert den Umriss seines Objekts, nämlich eines HREF="reference\objects\polygon.html">Polygon</A>, <A HREF="reference\objects\taxiway.html">Taxiway</A>, <A HREF="reference\objects\taxiwayline.html">Taxiway Linie</A>, <A HREF="reference\objects\road.html">Strasse</A>, <A HREF="reference\objects\river.html">Fluss</A>, <A HREF="reference\objects\line.html">Linie</A>, und <A HREF="reference\objects\flatarea.html">Abflachgebiets</A>.
+
+Neben den <A HREF="reference\properties\position.html">Positions</A>-Eigenschaften hat der Punkt auch eine Typ-Eigenschaft. Die folgenden Typ-Eigenschaften können gewählt werden:.
+
+<UL>
+<LI><B>Sichtbar:</B> Eine Linie (bzw. Taxiway etc.) wird zum nächsten Punkt weitergeführt.
+<LI><B>Unsichtbar:</B> Bis zum nächsten Punkt wird keine Linie gezeichnet, d.h. an dieser Stelle wird die sichtbare Linie unterbrochen.
+<LI><B>punktiert:</B> Bis zum nächsten Punkt werden helle Lichtpunkte sichtbar.
+<LI><B>Taxiway:</B> In regelmässigen Intervallen werden helle Lichtpunkte an dieser Kante des Polygons sichtbar.
+</UL>
+
+Punkte können erzeugt werden, indem man auf eine bereits vorhandene Linie klickt, oder durch Drücken der "Einfg"-Taste. Punkte können gelöscht werden durch Drücken der "Entf"-Taste oder durch Benutzen der "Löschen"-Option im <A HREF="ui\menus\edit.html">Bearbeiten  Menü</A>. Wenn die Zahl der Punkte unter das erlaubte Limit fällt, wird automatisch das gesamte Objekt gelöscht.
+
+Die maximale Anzahl von Punkten, die ein Objekt haben kann, ist: 80 für den Combat Flight Simulator 1 und früher, 2000 für FS 2000 und neuer, und 30 für ein Abflachgebiet, welches die flatten switch Option benutzt.
+
+Der Z-Parameter kann benutzt werden, um z.B. einen geneigten oder vertikalen Polygon zu erstellen. Allerdings sollte dies erfahrenen Anwendern vorbehalten bleiben.
+
+File: reference\properties\index.html
+Title: Eigenschaften
+Level: 3
+Keywords: Eigenschaften
+
+Im folgenden werden einige <A HREF="reference\objects\index.html">Objekt-</A>Eigenschaften detailliert beschrieben. Um Hilfe zu anderen Eigenschaftmenüs zu erhalten, die in diesem Abschnitt nicht enthalten sind, klicken Sie einfach den <img src="images/help.gif"> button an der oberen rechten Ecke des jeweiligen Fensters, und dann auf das interessierende Thema.
+
+File: reference\properties\position.html
+Title: Positionseigenschaften (X/Y, und Länge/Breite)
+Level: 4
+Keywords: Eigenschaften, Eigenschaften\Position, Position, X/Y, Länge/Breite
+
+Die Positionseigenschaften bestimmen, wo auf der Welt das Objekt plaziert wird. Es gibt zwei Arten, ein Objekt zu plazieren: entweder durch Beschreiben der x- und y- Entfernung vom  Szeneriereferenzpunkt, oder durch Setzen der absoluten Position mit Länge und Breite. Beide Arten können in FS Scenery Creator eingesetzt werden.
+
+Die x- und y- Werte können in jeder <A HREF="ui\units.html">Distanzmasseinheit</A> eingegeben werden und beziehen sich auf den Mittelpunkt der Szenerie.
+
+Der z-Parameter im Eigenschaftsmenü von Punkten kann für den betreffenden Punkt eine veränderte Höhe setzen. Damit lassen sich bestimmte Effekte erzielen, z.B. geneigte Polygone. Nur für versierte Anwender empfohlen.
+
+Die Werte für Längen- und Breitengrad können im Dezimalformat (exakter) oder im Gradminutenformat eingegeben werden. Das Gradminutenformat ist im Flugsimulator voreingestellt, Sie können jedoch diese Einstellung durch FS Scenery Creator ändern lassen, sichtbar wird dies nach dem Neustart des Flugsimulators. In FS Scenery Creator kann diese Einstellung in den HREF="ui\options\index.html">Voreinstellungen</A> angepasst werden, und es können beide Formate erkannt und in x-/y- Werte übersetzt werden.
+
+Die Positionseigenschaften werden grafisch durch einfaches Ziehen und Verschieben des Objekts auf der Arbeitsfläche verändert. Die momentane Position des Mauszeigers ist in der Statusleiste sowohl in x-/y- Format als auch in Längen-/Breitengraden ablesbar.
+
+File: reference\properties\rotation.html
+Title: Rotation
+Level: 4
+Keywords: Eigenschaften, Eigenschaften\Rotation, Rotation, Drehung
+
+Rotation (in älteren Versionen von FS Scenery Creator "Drehung" genannt) bestimmt die Drehausrichtung eines Objekts. Sie ist nur für einige Objekte wie z.B. Landebahnen, Gebäude und 3D-Makros verfügbar. Da die magnetische Abweichung zum geographischen Nordpol von Jahr zu Jahr etwas differieren kann, sichert FS Scenery Creator alle Rotationswerte als wahre geographische Rotationen. (Allerdings können Sie dies auch in den <A HREF="ui\options\index.html">Voreinstellungen</A> ändern, dann werden die magnetischen Werte angezeigt.) Wie schon in dem Abschnitt über die <A HREF="ui\units.html">Masseinheiten</A> beschrieben, können Sie Rotationswerte in Dezimal- oder Minutengrad eingeben.
+
+<B>Anmerkung:</B> FS Scenery Creator benutzt die Tabelle für die magnetische Abweichung aus der gerade angewählten Flugsimulatorversion, um die Konversion zwischen geographischer und magnetischer Rotation vorzunehmen.
+
+File: reference\properties\color.html
+Title: Farbe
+Level: 4
+Keywords: Eigenschaften, Eigenschaften\Farbe, Farbe
+
+Während in den letzten Jahren im Szeneriedesign immer mehr mit Texturen gearbeitet wird, da die Grafik immer schneller wird, sind Farben immer noch ein wichtiger Bestandteil der Szenerie. FS Scenery Creator bietet eine grosse Palette an Farben, die aus den Eigenschaft-Menüs der eine Farbauswahl unterstützenden Objekte ausgewählt werden können. Sie können aus den direkten, noch aus dem FS 5 bekannten Farben auswählen, oder eine nachtbeleuchtete Farbe (von allen FS-Versionen unterstützt), oder - wenn Sie mit FS 2000 und neuer arbeiten - einen beliebigen  Wert für die Rot/Grün/Blau-Anteile (RGB) wählen, womit sich über 16 Mio. verschiedene Farben herstellen lassen. Zusätzlich können Sie zwischen 16 Graden für Transparenz (von transparent bis undurchlässig) auswählen. Jede dieser Farben kann grundsätzlich auch nachthell sein (nicht nur die Farben der "Nacht-Palette").
+
+File: reference\properties\texture.html
+Title: Textur
+Level: 4
+Keywords: Eigenschaften, Eigenschaften\, Textur
+
+Texturen füllen den grössten Anteil der sichtbaren Flugsimulatorwelt aus. Die meisten Objekte verwenden Texturen, um das Objekt zu dekorieren. In FS Scenery Creator können Sie für einige Objekttypen die Textur auswählen, nämlich für HREF="reference\objects\building.html">Gebäude</A> und <A HREF="reference\objects\runway.html">Landebahnen</A>, oder bei <A HREF="reference\objects\polygon.html">Polygonen</A> jede beliebige auf ihrem System vorhandene Textur.
+
+Für FS98 und älter müssen Texturen im sogenannten Roh-".r8"-Format erstellt werden. FS2000 und neuer erkennen alle Bilder im ".bmp"-Dateiformat als Textur, wenn sie eine Pixelgrösse von 2^nX2^n haben (also 8X8, ...256X256 ... bis zu 1024X1024 Bildpunkte) sowie eine Farbtiefe von entweder 8 oder 16 bit haben. Am häufigsten sind 8-bit Texturen mit 256 Farben und 256X256 Pixeln.
+
+Angefangen mit FS 2000 können für verschiedene Tages- bzw. Jahreszeiten verschiedene Texturen verwendet werden. Diese Texturen müssen in ihrer Dateibenennung einer besonderen Namensregelung folgen, damit sie vom Flugsimulator erkannt werden können. Die folgende Liste fasst diese Konvention zusammen:.
+
+<UL>
+<LI>Normal: Bildname.bmp
+<LI>Nacht: Bildname_LM.bmp
+<LI>Frühling: Bildname_SP.bmp
+<LI>Herbst: Bildname_FA.bmp
+<LI>Winter: Bildname_WI.bmp
+<LI>Hoch-Winter: Bildname_HW.bmp
+</UL>
+
+Wenn Sie diese Namenskonvention befolgen und die entsprechenden Zusatztexturen in Ihrem FS-Textur-Zielordner installiert haben, erkennt FS Scenery Creator dies automatisch und ordnet dem Objekt die entsprechende Eigenschaft für "automatisches Texturwechseln" zu. Sie können wahlweise auch lediglich eine zusätzliche Nachttextur verwenden, oder aber nur zusätzlich die 4 Saisontexturen. Wenn Sie die Bitmap-Textur mit zusätzlichen Eigenschaften wie Transparenz oder Mipmapping versehen wollen, benötigen Sie dazu die einschlägigen Tools wie BMP2000, DxtBMP oder das Microsoft ImageTool aus dem Scenery SDK. 
+
+File: appendix\index.html
+Title: Anhang
+Level: 2
+Keywords: Appendix, Anhang
+
+Dieser Abschnitt enthält einige Anmerkungen zu FS Scenery Creator.
+
+File: appendix\eula.html
+Title: Anwender-Lizenzvertrag
+Level: 3
+Keywords: Anwender-Lizenzvertrag, Nutzungsbedingungen, Disclaimer
+
+Flight Simulator Scenery Creator ("das Programm") ist frei erhältlich, daher so, wie es ist und ohne irgendeine tatsächliche oder implizierte Garantie. Durch Installieren, Kopieren oder sonstige Verwendung des Programms oder seiner Komponenten akzeptieren Sie die Bedingungen dieses Vertrages. Wenn Sie dies nicht akzeptieren, beenden Sie die Nutzung der Programms und entfernen Sie es mit seinen Komponenten von Ihrem Computer oder Netzwerk. Weder der Autor noch diejenigen, die zu diesem Programm etwas beisteuern, können verantwortlich gemacht werden für direkte oder indirekte Schäden,  die aus der Nutzung dieses Programms oder durch das Programm erstellter Szenerien teilweise oder ganz entstanden sind.
+
+Ihre Kopie des Programms ist mit einer Freeware-Lizenz verbunden. Als Freeware darf das Programmpaket nur unter folgenden Bedingungen weitergegeben werden:.
+
+<UL>
+<LI>Das Archiv darf nur ohne jede Änderung weitergegeben werden. Eine Weitergabe bedarf der Zustimmung des Autors, falls irgendwelche Dateien angefügt, modifiziert oder weggelassen werden.
+<LI>Das Einfügen irgendwelcher einzelner Dateien aus dem Archiv in ein anderes Archiv ist nicht zulässig ohne Zustimmung des Autors (außer der "trees" library und den Texturen im FSSC\texture Ordner).
+<LI>Eine Geldeinnahme darf dadurch nicht erfolgen.
+<LI>Die Rechte und Wünsche des Autoren bezüglich des Archivs müssen beachtet werden.
+</UL>
+
+Sollten Sie tatsächlich für das Archiv oder für Teile des Archiv etwas bezahlt haben, lassen Sie das bitte unbedingt den <A HREF="mailto:fsschelp@yahoo.com?subject=Illegal%20distribution">Autor</A> wissen.
+
+Alle Szenerien, die mit Flight Simulator Scenery Creator version 1.x ganz oder teilweise unter diesem Nutzungsvertrag erstellt wurden, dürfen nur als Freeware verbreitet werden.
+
+Die offizielle Version dieser Anmerkung ist die US-Englische Version. Die Bestimmungen der englischen Version sind in jedem Falle ausschlaggebend, falls es Differenzen mit der in einer anderen Sprachversion erstellten Nutzungsbedingungen gibt.
+
+File: appendix\history.html
+Title: Neues & Entwicklungsverlauf
+Level: 3
+Keywords: Entwicklungsverlauf, What's New, Neues
+
+Diese Seite listet die neuen Features der jetzigen Version auf, und - für Neugierige - die neuen Features in allen bisherigen Versionen von FS Scenery Creator.
+
+Während die Verbesserungen am Programm (zumindest für mich!) als endlose Liste erscheinen, suchen wir stets nach Wegen, um Szeneriedesign einfacher zu machen! Sie können Vorschläge unterbreiten, indem Sie entweder direkt "Autor kontaktieren" aus dem <A HREF="ui\menus\help.html">Hilfe Menü</A> anwählen, oder eine e-mail direkt an <A HREF="mailto:fsschelp@yahoo.com?subject=Suggestions">fsschelp@yahoo.com</A> senden. Vielen Dank!
+
+<H4>Version 1.5.11 (December 15, 2003):</H4>
+
+<UL>
+<LI>Fixed: Extended runway marking attributes now work properly for FS2002.
+<LI>Fixed: Moved some macros under the "Structures" heading into the FS2000 heading to reflect that they do not work in FS98.
+<LI>Fixed: Added smart macro file finding for moving scenery files between different computers.
+</UL>
+
+<H4>Version 1.5.10 (November 25, 2003):</H4>
+
+<UL>
+<LI>Fixed: Export now scans macros from Line Objects for necessary textures.
+<LI>Fixed: Overflow and division by zero errors when two Taxiway Line points overlap.
+<LI>Fixed: If the first runway does not have Airport and Facilities Entry checked, the Airport name was not properly exported.
+<LI>Fixed: "Cannot copy texture: It is being used by another person or program" error fixed.
+</UL>
+
+<H4>Version 1.5.9 (August 28, 2003):</H4>
+
+<UL>
+<LI>Fixed: "Latitude switched" error message when using Surface Area on a scenery with a non-zero rotation.
+<LI>Fixed: FSSC default macro textures were not copied correctly.
+<LI>Fixed: Autosave dialog window showing up more than once when autosave files are available.
+<LI>Fixed: Improved logic in locating textures in directories when exporting.
+</UL>
+
+<H4>Version 1.5.8 (June 15, 2003):</H4>
+
+<UL>
+<LI>Fixed: The Horizontal Sign offset field in the Runway properties window does not reset to 0 when the checkbox is unchecked.
+<LI>Fixed: The near and far ILS were reversed for runways with rotations greater than 180 degrees.
+</UL>
+
+<H4>Version 1.5.7 (March 22, 2003):</H4>
+
+<UL>
+<LI>Fixed: Overrun texture reenabled for specific textures (Texture 10 and above). FS2002 only supports texturing for these types.
+<LI>Fixed: When reading scale values from Airport files generated in European locales, the result always came out to 1.0.
+<LI>Fixed: Despite setting the "DME at glideslope" option, the DME was always placed at the localizer position.
+<LI>Fixed: The repeat values for Length and Width in the Building object were reversed. Files created with FSSC 1.5.6 and before will have these values reversed upon loading for consistency.
+<LI>Fixed: Macro texture files now appear again in the Export Scenery Wizard (Bug beginning with v1.5.5).
+<LI>Fixed: VORs and NDBs can now be exported with facilities data without having to create a runway.
+<LI>New: FS7.0 DXT1 and DXT3 formatted BMP images can now be previewed in FSSC.
+<LI>New: Background images can now be made visible in Flight Simulator.
+<LI>New: French and German translations.
+<LI>New: Taxiway sign macro.
+</UL>
+
+<H4>Version 1.5.6 (January 17, 2003):</H4>
+
+<UL>
+<LI>Fixed: Creating a new background image gives the "File not found" error message regardless.
+<LI>Fixed: The building repeat fields did not save values properly under the Standard (ft) measurement setting.
+<LI>Fixed: Creating very large polygons/roads/etc. may sometimes give an overflow error when exporting.
+</UL>
+
+<H4>Version 1.5.5 (January 9, 2003):</H4>
+
+<UL>
+<LI>Fixed: Problems loading library objects in Macro properties box.
+<LI>Fixed: Position of the taxiway lines shift at night.
+<LI>Fixed: Random error messages when exiting FSSC after using the Cut operation on a polygon.
+<LI>Fixed: A file should be added to the most recently used list when it is double clicked in Explorer.
+<LI>Fixed: Paste should unselect any currently selected objects.
+<LI>Fixed: Removed support for overruns with different textures until the flashing problem can be determined.
+<LI>Changed: Adjusted the automatic values for the VASI/PAPI distances.
+</UL>
+
+<H4>Version 1.5.4 (November 16, 2002):</H4>
+
+<UL>
+<LI>Fixed: Macros selected off the macro list were drawn incorrectly.
+<LI>Fixed: Entering in X/Y coordinates out of range may generate exponential notation and give the wrong error message when pressing OK in the property pages.
+<LI>Fixed: Autosave dialog box should not appear when starting a second copy of FSSC on the same machine.
+<LI>Fixed: Drawing macros created with EOD with the "aibL" polygon attribute.
+</UL>
+
+<H4>Version 1.5.3 (November 15, 2002):</H4>
+
+<UL>
+<LI>Fixed: The Tower location should be written out to SCASM in terms of Mean Sea Level.
+<LI>Fixed: Editing the Tower object should update the AFD refresh flag.
+<LI>Fixed: RunwayLoc command decimal point problem (Western European versions).
+<LI>Fixed: Inefficiencies in loading SCN files.
+<LI>New: Ability to have invisible sections of taxiway hold-short lines.
+<LI>New: Disable Synthetic scenery for versions FS2000 and higher. While the "Transparent" texture can technically be used, it is used only rarely and the ability to select it has caused much confusion. Therefore, it has been disabled for future versions.
+</UL>
+
+<H4>Version 1.5.2 (October 11, 2002):</H4>
+
+<UL>
+<LI>Fixed: AFD compilation was always on by default (only in v1.5.1).
+<LI>Fixed: Incorrect updating of polygon and point names when Object list is opened.
+<LI>Fixed: Taxiway arcs were not lighted.
+<LI>Fixed: Crash when taxiway lines are straight and using arcs.
+<LI>Fixed: Tower did not appear in ATC Airport list.
+<LI>Fixed: Zoom with mousewheels did not update the display.
+<LI>New: Invisible line segments for taxiways.
+</UL>
+
+<H4>Version 1.5.1 (September 2, 2002):</H4>
+
+<UL>
+<LI>Fixed: Area16 now includes a surface area of "Smooth" so that platforms have a uniform surface.
+<LI>Fixed: The rotation for Menu Entry was entered incorrectly for CFS2 and FS2002.
+<LI>Fixed: Gun macros in CFS2 were not rotatable.
+<LI>New: Macro property box shows the second tab by default (Macro selection).
+<LI>New: Help Tutorials and Runway Gallery files.
+</UL>
+
+<H4>Version 1.5.0 (Preview Edition) (August 16, 2002):</H4>
+
+<UL>
+<LI>Fixed: Imprecise meter to nautical mile conversion in FSSC 1.2. Upon loading of old FSSC files, you will be prompted for the way to remedy the problem for the scenery.
+<LI>New: Reworked user interface.
+<LI>New: Quickscroll feature: move mouse to edges to scroll the editor.
+<LI>New: OpenGL drawing, textures and realistic taxiway, road, and river rendering.
+<LI>New: Macro listings go down subfolders.
+<LI>New: Multi-object properties for building, polygon, taxiway, road, river, line, taxiway line, and macro.
+<LI>New: Shortcuts to rotate object 1 degree, move objects one unit, and lock/unlock objects.
+<LI>New: Versatile number field entry, many units of length accepted.
+<LI>New: Customizable Tools menu.
+<LI>New: User interface to add custom macro listings.
+<LI>New: Special night and season textures now selectable (rather than automatic).
+<LI>New: New color selection user interface.
+<LI>New: New constant brightness option in color selection.
+<LI>New: Create roads with widths less than 1 meter.
+<LI>New: Lines of Buildings and Macros.
+<LI>New: Support for Area16 (Surface Area)
+<LI>New: New Objects: SCASM code, Exclusion, Surface Area, Taxiway Line, Tower
+<LI>New: Scenery can be up to 200km wide.
+<LI>New: Background images are rotatable, and they can be specified by their corner coordinates.
+<LI>New: Synthetic scenery boundaries are drawn.
+<LI>New: V1 visibility field can be overridden in Polygons.
+<LI>New: Z property for point object.
+<LI>New: Export Scenery Wizard automatically detects the need to compile the AFD file. The wizard also sets up the correct directories.
+<LI>New: Updated import for Airport files. (Taxiway markings coming soon)
+<LI>New: Tip of the Day.
+<LI>New: Dragged points snap to the nearest line or point (can be turned off)
+<LI>New: Rotate editor perspective, i.e. rotate the scenery in editor without affecting the position of scenery in Flight Simulator.
+</UL>
+
+<H4>Version 1.4.0-1.4.9 (March 1, 2002 - August 12, 2002):</H4>
+<UL>
+<LI>Beta versions. See Version 1.5.0 for details.
+</UL>
+
+<H4>Version 1.2.15 (May 1, 2002):</H4>
+
+<UL>
+<LI>Fixed: Incorrect handling of decimal points in Macro parameters.
+</UL>
+
+<H4>Version 1.2.13/14 (November 17, 2001):</H4>
+
+<UL>
+<LI>Fixed: Autosave crashing when creating a new object simultaneously.
+<LI>New: CFS2 library objects list.
+<LI>New: Raised NDB limit to 999.9Khz.
+<LI>New: Gerrish Gray's trees maintenance release.
+</UL>
+
+
+<H4>Version 1.2.12 (July 25, 2001):</H4>
+
+<UL>
+<LI>Fixed: Building texture label being wrong in the properties box (always says Beige, vertical stripes no matter what the selection was).
+<LI>Fixed: Crash when loading Airport files with range greater than 32767.
+<LI>Fixed: Incorrect label for NDB frequency in the properties box.
+</UL>
+
+<H4>Version 1.2.11 (June 16, 2001):</H4>
+
+<UL>
+<LI>Fixed: Executing SCASM in some Win2000 and NT setups.
+<LI>Fixed: Non-FS Scenery Creator macro files with the .dat extension crashed the program.
+</UL>
+
+<H4>Version 1.2.10 (June 3, 2001):</H4>
+
+<UL>
+<LI>Fixed: Language file error with Far Eastern Windows implementations.
+<LI>Fixed: Incorrect handling of RGB color values.
+</UL>
+
+<H4>Version 1.2.9 (April 23, 2001):</H4>
+
+<UL>
+<LI>Fixed: Incorrect true to magnetic variation conversion and vice versa. Values that overflowed above 360 or underflowed below 0 were not corrected.
+</UL>
+
+<H4>Version 1.2.8 (April 6, 2001):</H4>
+
+<UL>
+<LI>Fixed: Repeated entries in scenery.cfg.
+<LI>Fixed: Help button in error message boxes were not working.
+<LI>Fixed: Created a separate Lonely Islands example file for FS2000 to fix ground texture and splashing problem.
+<LI>New: Changed lower bounds for scale value to 0.0001.
+</UL>
+
+<H4>Version 1.2.7 (February 27, 2001):</H4>
+
+<UL>
+<LI>Fixed: The autosave feature crashes the program.
+</UL>
+
+<H4>Version 1.2.6 (February 22, 2001):</H4>
+
+<UL>
+<LI>Fixed: Some static aircraft macros were drawn incorrectly.
+<LI>Fixed: The altitude field for Airport files build 82 and above were loaded incorrectly.
+<LI>Fixed: Fractional values for building and runway dimensions are not supported by SCASM; FS Scenery Creator should not allow them either.
+<LI>Fixed: The FS2000 folder might not have been automatically read from the registry on some installations.
+<LI>New: Support for the Extremely Dense complexity setting.
+<LI>New: Automatically compress BGL files for FS2000. (BglZip must be installed).
+<LI>New: New language: Swedish (both program and help file).
+</UL>
+
+<H4>Version 1.2.0-1.2.5 (December 11, 2000 - February 9, 2001):</H4>
+Note: Versions 1.2.0 through 1.2.4 were non-public beta releases. This list only contains the fixes for bugs in version 1.1.9, and the new features developed in version 1.2.0 or during the beta test period and not the bugs that were in the beta versions. Many thanks to the beta testers.
+
+<UL>
+<LI>Fixed: There was a slight miscalculation in all the older versions: though the default scale is 4 meters per pixel, and the zoom in/out doubles or halves the scale value, the scale value was something closer to 3.9, and thus the X/Y values were not whole numbers.
+<LI>Fixed: Runway lights options were written incorrectly for Flight Simulator 2000 runways.
+<LI>New: SCASM now included as the scenery compiler.
+<LI>New: More macros bundled.
+<LI>New: FS Scenery Creator is now in several more languages: French, Spanish, German, and Polish.
+<LI>New: Ability to place objects using Latitude/Longitude.
+<LI>New: Ability to orient objects using true or magnetic heading.
+<LI>New: Choice of metric or standard measurements. Changes meters to feet or vice versa. However, since FS Scenery Creator stores measurements internally as metric, and some measurements are in integers, some values may be rounded slightly. (Example: 35 feet -> 11 meters -> 36 feet.)
+<LI>New: Polygons can now be filled with the polygon color. Taxiways, Roads, Rivers, and lines can be drawn with thick lines (as wide as the width you specify). These features can be turned off in the Options dialog box.
+<LI>New: Airport and Facilities Directory support. You have the option to put Airport, VOR, and NDB information in the FS98/FS2000 AFD format by selecting the check box in the respective objects, and by setting the scenery location in the Header properties box. AFD code is generated in a separate source file: filename_AFD.sca. The first ATIS of your scenery will be used as the frequency of the airport. You have the option to compile AFD data in the File menu.
+<LI>New: A new object, the Flat area allows you to flatten scenery (for FS2000 only). You can choose to use flatten switches, or the Area16N command. However, only the first flat area using flatten switches is processed; all other flat areas using flatten switches are ignored. There is no limitation for Area16N's. Note: Flatten areas in older versions are not loaded into FSSC 1.2. They will be loaded as regular polygons. Area16N's are generated in a separate source file: filename_A16N.sca. FS Scenery Creator will automatically compile this file.
+<LI>New: Ability to select up to three macro directories in the Options dialog box in addition to the default "FS Scenery Creator\Macros" directory. All API macros found in these directories will be listed in the macro object selection box. The file list is created the first time and then cached.
+<LI>New: A better macro drawing algorithm. FS Scenery Creator now reads TexPolys and Poly commands. More macros should be drawn accurately in this version than in the last.
+<LI>New: Ability to name objects. All objects can now be named (The Airport files import process is appropriately changed to reflect this new feature). If no name is specified, the default name will be used. This feature has no reflection on the compiled SCASM code, but some users may find it helpful for organizational purposes.
+<LI>New: More options for FS2000 runways such as red-ended centerlines, and threshold zone lights, and ability to place the VASI/PAPI on both sides of the runway.
+<LI>New: Runways can now be placed either with the specified position being the center of the runway, or the near end of the runway.
+<LI>New: Ability to change the placement of the VASI/PAPI.
+<LI>New: Updated import functionality for Airport files saved by builds 82/89.
+<LI>New: Taxiway centerlines, and line objects can now be more than 1 meter wide. However, dotted lines that are more than 1 meter thick will be ignored, and treated as "Skip to" lines. Appropriately, now you can click on the entire thickness of the line to create new points.
+<LI>New: Objects list now integrated into the editor. Selecting "Objects" from the Scenery menu will open up a second pane in the main screen. All changes made in one pane will be reflected in the other. You can resize and dock the panel either on the right or left side.
+<LI>New: Multiple background images. The background image is now an object. This change allows you to drag your bitmap to any position like any other object. Backgrounds will always be drawn below any other object in the editor, but you can still use the Bring To Front, Send To Back commands to control which image overlaps which ones.
+<LI>New: Optional prompt to save before compilation.
+<LI>New: Autosave file feature enables FS Scenery Creator to save your file to a temporary location (C:\Windows\Temp) every several minutes. If FS Scenery Creator terminates normally, these files are deleted.
+<LI>New: Ability to specify a zoom level manually between 0.01 and 64 meters. (Note, there is a problem with drawing polygon lines at very small scales which is inherent in how Windows draws them. The polygon fill feature is also disabled for 0.0625 meters per pixel and smaller because of this same problem.
+<LI>New: Ability to measure the distance between two points on the editor. Simply click and hold the mouse button at the first point, and drag to the second point. The statusbar will show you the distance of the diagonal of the gridding box. Hit the Esc key to abort the multi-select.
+<LI>New: Objects can now be locked into place, locked objects cannot be dragged in the editor.
+<LI>New: Polygons, Taxiways, Roads, Rivers, and Lines can now optionally be locked so that additional points cannot be created.
+<LI>New: Default button in the Options dialog box allows you to revert to the standard settings.
+<LI>New: The Bring to Front/Send to Back command now works with points. Selecting either of these commands will bring to front/send to back the entire shape. This should lessen the need to use layers, which slow down Flight Simulator's graphics engine.
+<LI>New: Ability to transform (shift and rotate) selected objects (or the entire scenery).
+<LI>New: The delete command now selects the next object after operation, so you can press Del multiple times. Note: because of the way objects are stored by FSSC, the next object may not be the next point of the polygon.
+<LI>New: Support for mouse wheel. To scroll up or down the editor, roll your mouse wheel up or down. To scroll sideways, hold the shift key: mouse wheel up scrolls to the left and mouse wheel down scrolls to the right.
+</UL>
+
+<H4>Version 1.1.9 (December 3, 2000):</H4>
+
+<UL>
+<LI>Fixed: The scale factor was for FS2K library objects was incorrectly ignored.
+<LI>Fixed: An incompatibility with FSDS generated macros cause the altitude field to be disabled.
+</UL>
+
+<H4>Version 1.1.8 (November 16, 2000):</H4>
+
+<UL>
+<LI>Fixed: Some word processors did not accept long file names that FS Scenery Creator passed to them from the Macro edit feature.
+<LI>Fixed: Rounding errors sometimes placed the synthetic scenery in the wrong position.
+</UL>
+
+<H4>Version 1.1.7 (November 6, 2000):</H4>
+
+<UL>
+<LI>Fixed: SCASM does not accept fractional altitudes for radio beacons.
+<LI>Fixed: The altitude field was written with a "," as the decimal operator in some locales.
+<LI>Fixed: Using the send to back or bring to front corrupted the file, and also crashed the program when you selected "Objects" from the scenery menu.
+<LI>Fixed: Building texture bitmap values, X, Z, and Y were not written correctly.
+<LI>Fixed: The upper limit for height values for the Advanced Building was set unrealistically low.
+</UL>
+
+<H4>Version 1.1.6 (November 4, 2000):</H4>
+
+<UL>
+<LI>New: Customize what colors FS Scenery Creator uses to display objects.
+<LI>New: Hold the shift key before clicking on the editor to select an object that is hidden behind another object.
+</UL>
+
+<H4>Version 1.1.5 (October 31, 2000):</H4>
+
+<UL>
+<LI>Fixed: Taxiways did not appear at all in Flight Simulator 2000. (Fix: Set layer level to 0)
+<LI>Fixed: The code for taxiway centerlines was written incorrectly and caused the scenery that followed the taxiway to disappear in Flight Simulator.
+<LI>Fixed: Decimal glide slope values were written incorrectly in SCASM in some locales.
+<LI>Fixed: Odd numbered runway lengths caused the PAPI code to be written incorrectly in SCASM in some locales.
+<LI>Fixed: Airport files may have been read incorrectly in some locales.
+<LI>Fixed: Scale values set below 0.1 were shown as 0.0 in the macro dialog box.
+<LI>Fixed: The polygon texture selection should, by default, show the folder set in the Options dialog box.
+<LI>Fixed: Items that are too long to fit inside the macro selection box bring up a tooltip that shows the text in full. However, a bug with MS-Windows made these items unselectable with the mouse.
+<LI>New: FS Scenery Creator has eliminated the Windows Installer.
+</UL>
+
+<H4>Version 1.1.4 (October 26, 2000):</H4>
+
+<UL>
+<LI>Fixed: Taxiways do not show up in some installations of Flight Simulator 2000.
+<LI>Fixed: FS Scenery Creator used wrong Advanced Building texture IDs.
+<LI>New: Macros are now listed categorically.
+<LI>New: Buildings can optionally have a roof light.
+<LI>New: FS Scenery Creator now utilizes the standard Windows Installer which should eliminate installation problems. (Actually, this caused more problems than it solved. This feature was withdrawn in later versions.)
+<LI>New: FS Scenery Creator now utilizes the new HTML help format.
+</UL>
+
+<H4>Version 1.1.3 (September 25, 2000):</H4>
+
+<UL>
+<LI>Fixed: Error 5 occurs when users had at one point installed Airport 2.xx but have uninstalled it.
+<LI>Fixed: For several users, the program froze while trying to select a texture or a background bitmap.
+<LI>Fixed: FS Scenery Creator generated incorrect code when the copyright field is left blank.
+<LI>Fixed: The Advanced Building texture ID numbers were generated incorrectly.
+<LI>New: FreeSC Version 1.2 included.
+<LI>New: Support for scale values between 0.01 and 20.
+<LI>New: Support for AS&D (.SCM) format macros.
+</UL>
+
+<H4>Version 1.1.2 (September 12, 2000):</H4>
+
+<UL>
+<LI>Fixed: Error 50003 occurs because the incorrect version of the comctl32.ocx file was included with the installation package.
+<LI>Fixed: The altitude field of an Airport file was not read.
+<LI>Fixed: Some Airport files could not be read because their heading was saved in a different format.
+</UL>
+
+<H4>Version 1.1.1 (September 3, 2000):</H4>
+
+<UL>
+<LI>Fixed: International users may not have been able to disable runway markers.
+<LI>Fixed: The altitude parameter for the Flatten switch should be in feet, not meters.
+<LI>Fixed: The SCASM code to read seasonal bitmaps was written incorrectly.
+<LI>Fixed: Flatten numbers were sometimes written incorrectly.
+<LI>Fixed: Open and Save dialogs did not work correctly in Windows NT.
+<LI>Fixed: The FS2K Radar macro contained an unsupported command for FreeSC.
+<LI>Fixed: The City object does not work in Flight Simulator 2000. This object should be disabled.
+<LI>Fixed: Some Airport macro metacommands were read incorrectly.
+<LI>Fixed: The textures in Distribute Scenery were incorrectly placed by default into the incorrect folder.
+<LI>Fixed: The altitude parameter of the runway was outputted incorrectly when a decimal was used.
+<LI>New: FS Scenery Creator can now read Airport 2.x files.
+<LI>New: You can use the "=" key in addition to the "+" key to zoom in.
+<LI>New: Dutch language support.
+</UL>
+
+<H4>Version 1.1.0 (August 10, 2000):</H4>
+
+<UL>
+<LI>Fixed: Layer 23 is not compatible with Flight Simulator 2000. FS Scenery Creator should use default layer 20. (Older files with taxiways, roads, etc. with layer 23 will be automatically converted to 20).
+<LI>Fixed: ILS dual frequencies did not work. One side of the runway went into back course. Also, the localizer was placed in the wrong position.
+<LI>Fixed: The allowed NDB frequency range was incorrect.
+<LI>Fixed: Synthetic Scenery does not work in Flight Simulator 2000. The option should be disabled. (Actually no. This has been re-enabled in version 1.1.7)
+<LI>Fixed: A "Object Region Creation Error" used to occur when loading some macros.
+<LI>New: FreeSC integrated with FS Scenery Creator. A revised and reformatted English help manual was also developed and is distributed with this program with the permission of Takuya Murakami, author of FreeSC.
+<LI>New: Support for different languages.
+<LI>New: FS2000 scenery capabilities: Advanced building, Road (Major/Minor), Railway, and Library object.
+<LI>New: Raw RGB selectable colors, and 27 more standard colors are now available.
+<LI>New: FS Scenery Creator can optionally remember the last settings you used to create a similar object.
+<LI>New: Inclusion of the FS standard PAPI. FS Scenery Creator will create code for the PAPI if the PAPI02.API macro is not found.
+<LI>New: Cut, copy and paste commands optimized with a visible increase in speed for large amounts of objects.
+<LI>New: Ability to flatten scenery by using a polygon.
+<LI>New: Ability to create an installation package to install scenery and flatten/exclude switches. Note: The scenery installation program is currently not available, but it will be compatible with the format generated by the "Distribute Scenery" command.
+<LI>New: Bring to Front/Send to Back commands to rearrange the order of objects. (Useful for overlapping runways).
+<LI>New: Fallback surface colors for users who disable textured surfaces.
+<LI>New: The Taxiway object can now automatically generate centerlines.
+<LI>New: Improved memory handling. The old version may have depleted Windows memory if used long enough.
+<LI>New: Scale factor added for textures.
+<LI>New: Compatibility with Airport 2.60 macro standard.
+<LI>New: You can now make lines visible only at nighttime.
+<LI>New: You can disable the night lighting of taxiways, roads, and rivers.
+<LI>New: Option to change the cursor to a crosshair pointer instead of an arrow.
+<LI>New: New look for toolbar and statusbar.
+<LI>New: You can now see the value of the magnetic variation in Header properties.
+<LI>New: You can now make invisible the focus circles, and the circles around points to see your scenery clearer.
+<LI>New: V2 values can now be edited for Macros.
+<LI>New: Improved code generation.
+</UL>
+
+<H4>Version 1.0.2 (June 25, 2000):</H4>
+
+<UL>
+<LI>Fixed: The Edit->Copy command did not copy the ILS entries of runways.
+<LI>Fixed: Fuel Areas without yellow borders ate up the objects that follow.
+<LI>Fixed: FS Scenery Creator used a long file name with the exclude command. The exclude command does not accept long file names.
+<LI>Fixed: Macro parameters 6-9 and extra did not convert "," decimal format into "." for scenery compilation.
+<LI>Fixed: Export command failed on some computers.
+<LI>Fixed: Numerous heading and scale entries did not convert "," decimal format into "." for scenery compilation.
+<LI>Fixed: Re-centering the scenery by double-clicking did not update the current position on the statusbar.
+<LI>Fixed: Pressing Cancel while editing Runway properties caused errors when trying to access properties again or compiling.
+<LI>Fixed: Right-clicking outside an object did not clear the focus of the previous object.
+<LI>New: FS Scenery Creator now officially supports bitmaps as textures.
+<LI>New: FS Scenery Creator raises the Area() limit to 64KB.
+<LI>New: Textures file names can now be entered directly in a text field.
+<LI>New: Texture file extensions can now be edited.
+<LI>New: Dot spacing for polygons and lines can now be edited.
+<LI>New: New techniques are used to draw the macro objects.
+<LI>New: Macros included with FS Scenery Creator.
+<LI>New: Macro text field lists convenient macros. 
+</UL>
+
+<H4>Version 1.0.1 (June 7, 2000):</H4>
+
+<UL>
+<LI>Fixed: FS Scenery Creator used the local decimal separator settings when writing numbers for the scenery compiler. Instead, it should always use the period.
+<LI>Fixed: In fractional minutes mode, the statusbar occasionally read "W023.031.00" instead of "W023.04.00" due to rounding errors.
+<LI>Fixed: The labels for the near and far end of the runway dialog box used to reset to 36/18 when the properties dialog box is invoked subsequently.
+<LI>Fixed: FS Scenery Creator's compile mechanism printed long file names for macros. This is incompatible with earlier versions of SCASM.
+<LI>Fixed: Selecting SCASM source file format in Export incorrectly compiled the file to BGL format.
+<LI>Fixed: FS Scenery Creator always read from FLTSIM98.CFG file, the FS98 configuration file regardless of the version of Flight Simulator that is installed. FS Scenery Creator should read from the correct Flight Simulator configuration file (2000, 98, 95) for "Fractional Minutes", or store its own internal value if none of the configuration files are found.
+<LI>Fixed: FS Scenery Creator created a blank magdec.bgl, the magnetic deviation information provided by Flight Simulator, if the file did not exist. It should not create a blank file.
+<LI>Fixed: FS Scenery Creator printed blank spaces for macro parameters that are left blank. It should instead write "0" for unused parameters for macros as place holders.
+<LI>New: Scenery/Header dialog box prompts for fractional minutes for scenery center when the option to display fractional minutes is checked.
+<LI>New: Export toolbar button.
+<LI>New: FS Scenery Creator can display a background picture to facilitate placing objects.
+<LI>New: Fuel area now features a standard fuel pump if desired.
+<LI>New: Dotted lines are now available by creating a line, and selecting "Dotted line" for each point in the line.
+<LI>New: Less crowded Locations Tab in Options dialog box contains two new entries: Export folder and Texture folder.
+<LI>New: Files created by FS Scenery Creator 1.0.0 (Beta 1) are compatible with version 1.0.1. However, files saved in 1.0.1 format will not be compatible with 1.0.0.
+<LI>New: Roads are now created with the asphalt.r8 texture by default as Flight Simulator 2000 does not display colored roads correctly.
+<LI>New: A new field in macro parameters, extra, that allows users to add more parameters if necessary.
+</UL>
+
+<H4>Version 1.0.0 (May 28, 2000):</H4>
+
+<UL>
+<LI>First release version.
+</UL>
+
+File: appendix\thanks.html
+Title: Acknowledgements
+Level: 3
+Keywords: Acknowledgements
+
+Besides the programmer, there have been many people who have contributed to the project in one way or another. Without their help, Flight Simulator Scenery Creator would not have been as successful as it is right now.
+
+<B>Beta 1.4, The masters of bug tracking:</B>
+
+<UL>
+<LI>Alexander Belov
+<LI>Frank Betts
+<LI>Goran Brumen
+<LI>Richard G. Charlebois
+<LI>Luc Clemens
+<LI>Andrej Drobun
+<LI>Andreas Klisch
+<LI>Per Nilsson
+<LI>Phil Paschutine
+<LI>Peter Pawluczuk
+<LI>Alan Pereira Pierce
+<LI>Keith Post
+<LI>Gunter Scherrer
+<LI>John R. Tucker
+<LI>John R. Williams
+</UL>
+
+<B>Additional Beta testing:</B>
+
+<UL>
+<LI>Marcus Cornell
+<LI>Tom Fica
+<LI>Mariano Gros
+<LI>Hans Janssens
+<LI>Gilles Larivière
+<LI>Thomas Lin
+<LI>Eric Marenyi
+<LI>Philip Morgan
+<LI>Rafael dos Santos
+<LI>James D. Smith
+<LI>George L. Williams
+<LI>Mark Williams
+</UL>
+
+<B>Special Thanks to:</B>
+
+<UL>
+<LI>Lee M Boyer, CFS2 library list (v1.2)
+<LI>Matthias Brueckner, Easy Object Designer
+<LI>Shiyang (ALF) Cao, consultant
+<LI>Dan Geis, Macros
+<LI>Gerrish Gray, Macros
+<LI>Henk Hagreis, Very helpful and persistent beta tester
+<LI>Pierre Henrion, French translator (review)
+<LI>Tom Hiscox, Airport
+<LI>Yukio Kashiwa, Macros
+<LI>Andreas Klisch, German translator
+<LI>Jim McNulty, Macros
+<LI>Manfred Moldenhauer, SCASM
+<LI>Takuya Murakami, FreeSC
+<LI>Manuel Portillo Pérez, Macro
+<LI>Andrew Quenet, French translator
+<LI>Jordan Russell, Inno Setup
+<LI>Rafael dos Santos, consultant
+<LI>Konstantin Shkolnyak, consultant
+<LI>Ralf-J. Triebel, Macros
+<LI>John Tucker, CFS2 macros consultant
+<LI>Lindsay Watt, CFS2 consultant
+<LI>Darryl Wightman, Runway gallery pictures
+<LI>Hans Wilms, German translator (review)
+<LI>Martin Wright, graphics consultant
+</UL>
+
+File: tutorials\index.html
+Title: Tutorial
+
+Willkommen auf der Tutorial Seite. Unten finden Sie mehrere Tutorials. Klicken Sie auf einen Link, um das betreffende zu starten. Bitte verschieben Sie die Tutorial Fenster nicht auf der Arbeitsfläche, weil FS Scenery Creator so ausgelegt ist, dass die "Eigenschaften"-Fenster optimal mit den normalen Tutorial-Fensterpositionen zusammenpassen.
+
+<UL>
+<LI><A HREF="tutorials\tuta1.html">Erste Schritte</A>
+<LI><A HREF="tutorials\tutb1.html">Die Grundlagen</A>
+<LI><A HREF="tutorials\tutc1.html">Die Objekte</A>
+</UL>
+
+<A PARAM="Close">Fenster schliessen</A>
+
+File: tutorials\tuta1.html
+Title: Erste Schritte: Lektion 1
+
+<H5>Eingewöhnung</H5>
+
+Wenn FS Scenery Creator noch nicht gestartet wurde, das Programm starten: Klicken Sie auf ihr Start Menü, dann auf den "Programme" Ordner, suchen Sie "Leung Software" und klicken Sie auf FS Scenery Creator.
+
+Willkommen zu FS Scenery Creator! Nachdem das Programm geladen wurde, sehen Sie die Hauptarbeitsfläche. Unter der Titelleiste finden sie die Menüs, die Ihnen Zugang zu den verschiedenen Features geben. Unter der Menüleiste wiederum finden Sie die Werkzeugleiste, die  einen Schnellzugriff auf häufig benutzte Funktionen bietet.
+
+An der Unterseite des Arbeitsfensters finden Sie die Statusleiste. Wenn der Mauszeiger sich im Arbeitsfenster befindet, enthält die Statusleiste die momentane Position des Zeigers in Welt-Koordinatenangaben (Längen- und Breitengrad), und die relative horizontale und vertikale Entfernung vom Referenzpunkt. Außerdem wird der Name eines Objekts erscheinen, wenn der Mauszeiger über ein solches bewegt wird.
+
+[Back]<A HREF="tutorials\tuta2.html">[Next]</A><A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tuta2.html
+Title: Erste Schritte: Lektion 2
+
+<H5>Objekte</H5>
+
+Zwischen der Werkzeugleiste und der Statusleiste befindet sich der Editor. Wenn Sie ein neues Szenerieprojekt starten, besteht der Editor aus Rasterlinien, die horizontal und vertikal 1 Kilometer auseinanderliegen. Wenn Sie im Editor mit der rechten Maustaste klicken, erscheint das Bearbeiten Menü, mit dem sie neue Objekte zufügen können. Alternativ können Sie auch auf die "Menü"-Taste drücken, oder Umschalt+F10.
+
+Wie viele computergestützte Design-Anwendungen arbeitet auch FS Scenery Creator objektorientiert. Jedes Szenerieelement (z.B. Gebäude oder Landebahn) ist ein Objekt, und alle Objekte haben mindestens eine x- und y- Eigenschaft, die dem Programm sagen, wo das Objekt erscheinen soll. Jedes Objekt hat auch einen Kreis um seine Anwahlfläche, in den sie klicken müssen, um es anzuwählen. Wenn ein Objekt angewählt ist, ist dieser Kreis hellblau.
+
+Wenn Sie ein anderes Objekt anklicken, verliert das letzte Objekt seine Beachtung. Wenn Sie mehrere Objekte anselektieren wollen, halten sie die "Strg"-Taste, während Sie klicken. Alternativ können Sie auch in einen freien Bereich klicken, die linke Maustaste festhalten und einen Rahmen um die gewünschten Objekte ziehen. Dadurch werden alle Objekte innerhalb des Rahmens angewählt.
+
+<A HREF="tutorials\tuta1.html">[Zurück]</A><A HREF="tutorials\tuta3.html">[Weiter]</A><A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tuta3.html
+Title: Erste Schritte: Lesson 3
+
+<H5>Eigenschaften</H5>
+
+Wenn ein Objekt einmal angewählt ist, können Sie seine Eigenschaften ändern. Sie müssen dazu mit dem Mauszeiger über dem Objekt bleiben und dann die rechte Maustaste klicken. Dann erscheint das Menü (es reicht bereits, wenn sie mit der rechten Maustaste auf ein Objekt klicken, es damit anwählen und gleichzeitig das Bearbeiten Menü öffnen), und unterhalb der "Objekt zufügen"-Option finden Sie eine Liste der angewählten Objekte. Wenn Sie eins davon auswählen, erscheint sein "Eigenschaften" Menü. Wenn mehrere Objekte angewählt wurden, gibt es auch eine "Eigenschaften"-Option, wo Sie alle diese Objekte gleichzeitig bearbeiten können. In Abhängigkeit von den in der Auswahl vorhandenen Objekttypen kann es sein, dass sie ein angepasstes "Eigenschaften" Menü bekommen, oder eine sehr einfache Seite, wo Sie lediglich die Positions-Eigenschaften festlegen können.
+
+Wenn Sie die Position von ausgewählten Objekten verändern möchten, klicken Sie einfach in eins von diesen, halten die linke Maustaste und ziehen das ganze auf eine neue Position. Alle anderen angewählten Objekte werden sich dabei synchron mitbewegen. Ein neues feature von FS Scenery Creator ist es, dass das Programm automatisch den Arbeitsschirm in kleinen Schritten etwas mitscrollt, sobald sie Objekte in die Nähe des Bildschirmrandes ziehen. Dasselbe wird auch beim Ziehen eines Rahmens für die Objektanwahl passieren.
+
+Die folgenden Tastatur-Kurzbefehle sind verwendbar: mit F4 öffnet sich das Eigenschafts-Fenster für das angewählte Objekt mit der ersten Registerkarte, mit F5 entsprechend mit der zweiten Registerkarte, und mit F5, F7 und F8 dann mit der dritten, vierten und fünften Karte. Wenn mehrere Objekte ausgewählt wurden, dann erscheint ein gemeinsames Eigenschaftsfenster für alle diese Objekte.
+
+<A HREF="tutorials\tuta2.html">[Zurück]</A><A HREF="tutorials\tuta4.html">[Weiter]</A><A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tuta4.html
+Title: Erste Schritte: Lektion 4
+
+<H5>Bewegen im Arbeitsfenster</H5>
+
+Sie können den Editorbereich auf mehrere Arten verschieben. Um den Editor neu zu zentrieren, doppelklicken Sie auf die Position des gewünschten neuen Mittelpunkts. Um im kleinen Bereich zu verschieben, benutzen Sie die Scrollleisten rechts und unten am Editor, oder scrollen Sie evtl. mit dem Mausrad (normal=vertikal, mit gehaltener Umschalttaste=horizontal). Wenn die Maustaste gehalten wird (beim Ziehen oder Rahmensetzen), wird das Editorfenster gescrollt. sobald der Mauszeiger in die Nähe einer Ecke kommt.
+
+FS Scenery Creator kann Ihren Arbeitsschirm in mehreren Stufen zoomen. Klicken Sie einfach auf die +/- Buttons oben an der Werkzeugleiste, um grösser oder kleiner zu zoomen. Alternativ können Sie die plus (+) oder minus (-) Tasten der Tastatur benutzen. Sie können auch mithilfe eines gezogenen Auswahlrahmens hereinzoomen, wenn Sie die "plus"(+)-Taste drücken, bevor Sie die Maustaste loslassen.
+
+<A HREF="tutorials\tuta3.html">[Zurück]</A><A HREF="tutorials\tuta5.html">[Weiter]</A><A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tuta5.html
+Title: Erste Schritte: Lektion 5
+
+<H5>Letze Bemerkungen</H5>
+
+Dieser Abschnitt beendet Ihre erste grundlegende Tour mit FS Scenery Creator.
+
+Wann immer Sie in einem bestimmten Textfeld oder Eigenschaftsfenster Hilfe benötigen, klicken Sie das <img src="images/help.gif"> Symbol an der rechten oberen Ecke des betreffenden Fensters, und dann auf das interessierende Gebiet im Fenster. Dann wird ein kleines Popup-Fenster erscheinen, welches eine Kurzerklärung zu dem betreffenden Gebiet enthält.
+
+<A HREF="tutorials\tuta4.html">[Zurück]</A>[Weiter]<A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tutb1.html
+Title: Die Grundlagen: Lektion 1
+
+<H5>Einige Anmerkungen:</H5>
+
+Verschiedene Flugsimulatorversionen haben jeweils andere Anforderungen und Möglichkeiten im Szeneriedesign. Beachten Sie die dementsprechend die Hinweise im Tutorial, wenn Verweise auf eine bestimmte Flugsimulatorversion auftauchen (FS95, FS98, CFS1, FS2000, CFS2, FS2002).
+
+Sie sollten in jedem Falle den Abschnitt <A HREF="tutorials\tuta1.html">Erste Schritte</A> des Tutorials zuerst lesen.
+
+<B>Lassen Sie sich durch den Titel des Tutorials nicht irritieren.</B> Die Überschrift bedeutet nicht, dass das Tutorial schwierig ist, sondern bezieht sich auf erste Schritte zur Erstellung einer minimalen Szenerie im Flugsimulator. Viel Glück!
+
+Das Tutorial nimmt an, dass Sie das Original FS Scenery Creator -Farbschema verwenden. Sie sollten ausserdem überprüfen, ob in den Voreinstellungen die richtige Version Ihres installierten Flugsimulators angeklickt ist, da viele bestimmte Funktionen nicht von allen Versionen des Flugsimulators unterstützt werden und daher in solchen Fällen deaktiviert sind.
+
+<H5>Start:</H5>
+
+Falls noch nicht geschehen, starten Sie FS Scenery Creator: Klicken Sie auf "Start", dann auf "Programme", suchen Sie "Leung Software", und klicken Sie auf FS Scenery Creator.
+
+[Back]<A HREF="tutorials\tutb2.html">[Next]</A><A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tutb2.html
+Title: Die Grundlagen: Lektion 2
+
+<H5>Ortsangabe</H5>
+
+Zuerst müssen wir eine Ortsangabe für die Szenerie festlegen. Gehen Sie in das Menü "Bearbeiten", klicken Sie auf "Szenerieeigenschaften". Am Beginn, geben Sie Ihren Namen in der "Credits"-Registerkarte ein. Gehen Sie auf die "Ausdehnung"-Karte und setzen Sie dort die gewünschten Werte für die Lokalisation ein. Für den Anfang lassen wir diese Werte einmal auf N0, E0.
+
+Beachten Sie, dass alle Eingabefelder eine Zahl beinhalten, gefolgt von einer Masseinheit (z.b. m oder ft). Sie können in den Programmvoreinstellungen festlegen, ob Sie grundsätzlich das metrische System oder das englische "feet"-System verwenden wollen. Aber unabhängig davon können Sie jeden Eingabewert mit einem der zulässigen Masseinheiten verbinden. Wenn z.B. Ihre Voreinstellungen auf "metrisch" stehen, sind z.B. diese folgenden Eingaben gleichwertig und werden vom Programm automatisch erkannt: 1000m, 3280ft, 1km, 0.54nm, 0.621mi. Wenn Ihre Programmvoreinstellungen das "Komma" (",") als Dezimaltrennzeichen festlegen, benutzen Sie bitte auch das Komma, da sonst das Dezimaltrennzeichen nicht erkannt wird.
+
+Um eine kleine Insel im Meer zu erstellen, setzen wir jetzt die Szeneriehöhe auf 10m (32.8ft).
+
+<H5>Der "Flughafenauswahl" - Eintrag</H5>
+
+<WARN>FS95 unterstützt dies nicht.</WARN>
+
+In der "Airport" Menükarte können wir die geopolitischen Eigenschaften der Szenerie zuweisen, das sind die von Menschenhand gegebenen Bedingungen, die uns später helfen werden, die Szenerie im Flugsimulator über das "Flughafenauswahl"-Verzeichnis wiederzufinden. Sie können völlig frei einen Namen, die Region, Land, Bundesstaat, Stadt und ICAO-Code setzen. Alle Felder mit Ausnahme des Bundesstaat-Felds sind Musseingaben, damit der Menüeintrag im Flughafenverzeichnis korrekt auftaucht. <WARN>FS2002: Achtung: Lassen Sie den "Sprachcode" auf "US English - 409" stehen, gleichgültig, welche Sprachversion von FS2002 Sie benutzen.</WARN>
+
+<H5>Synthetische Szenerie</H5>
+
+<WARN>Nur für FS95, FS98, and CFS1</WARN>
+
+In der Menükarte "Synthetische Szenerie" können wir die Ausdehnung und eine Bildtextur für eine Grundbodenfläche in der Umgebung unserer Szenerie auswählen. Mit der Option "keine" bei der Texturauswahl wird keine synthetische Szenerie gesetzt. Eine synthetische Szenerie ist immer dann erforderlich, wenn Sie Ihrem Szeneriegebiet eine andere Höhe zuweisen wollen, als in der Originalszenerie des FS an der betreffenden Stelle festgelegt, oder wenn Sie aus Wasser Land machen wollen. Und weil wir eine Insel bauen wollen, nehmen Sie die dritte Option (14700m, 48100ft), und irgendeine Texturoption ausser "Transparent". Synthetic tiles werden als veränderbare, aber limitierte Blöcke in einem festen Raster dargestellt. FS Scenery Creator zeigt die möglichen Blockgrößen und richtet die Blocks optimal zur Mitte der Szenerie aus. Die Blockgrenzen werden durch  ein dickes schwarzes Rechteck auf der Arbeitsfläche markiert, evtl. müssen Sie etwas herauszoomen, um die Blockgrenzen zu sehen.
+
+<A HREF="tutorials\tutb1.html">[Back]</A><A HREF="tutorials\tutb3.html">[Next]</A><A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tutb3.html
+Title: Die Grundlagen: Lektion 3
+
+<H5>Das Allernötigste</H5>
+
+Natürlich braucht ein Flughafen auch eine Landebahn. Erstellen Sie jetzt eine durch Rechtsklick auf die Arbeitsfläche, wählen Sie "Neues 2D-Objekt" und "Landebahn". Jetzt öffnet sich die Seite mit den Landebahneigenschaften. Das ist das schwierigste Eingabefenster des ganzen Programms, aber wir werden zunächst nur einige Optionen betrachten. 
+
+<H5>Position</H5>
+
+In the "Runway" Karte sehen wir die X/Y Position und Breite/Länge. Diese Parameter legen die Position der Landebahn fest (momentan da, wo beim Rechtsklick zur Objekterstellung der Mauszeiger war), und die zwei Parameter sind aneinander gebunden. Wenn ein Parameter (z.B. x/y) geändert wird, ändert sich der andere mit (Länge/Breite), weil es diese zwei Möglichkeiten gibt, den Mittelpunkt der Landebahn festzulegen: über Längen-/Breitengrad oder über die x/y-Entfernung vom Szeneriemittelpunkt. Je nach Fall werden Sie später das eine oder das andere brauchen, für den Anfang lassen wir aber die Parameter so stehen, wie sie sind.
+
+<H5>Rotation</H5>
+
+"Rotation" legt die Ausrichtung der Landebahn fest. Setzen wir sie jetzt einmal auf "25°geo". Das bedeutet, dass die Bahn jetzt 25 Grad im Uhrzeigersinn vom wahren Nordpol gesehen gedreht wird. Wir könnten auch "34°mag" eingeben, was annähernd in derselben Drehung resultieren würde. Falls Ihnen der Unterschied zwischen geografischem und magnetischem Nordpol nicht klar ist: die Achse, um die sich die Erde dreht, führt durch den wahren (geografischen) Nordpol, und der magnetische Kompass zeigt auf den magnetischen Nordpol. Der geografische Nordpol ist konstant, während der magnetische Nordpol sich über die Zeit hinweg tatsächlich leicht verändert, abhängig von Veränderungen des Erdmagnetismus. Da der Kompass als bevorzugtes Navigationsinstrument in Flugzeugen dient, benutzt man die magnetische Winkelangabe zur Flugnavigation, während im Szeneriedesign der geografische Nordpol mehr Bedeutung hat. Sie können festlegen, welche Konvention das Programm benutzt, entweder geografisch oder magnetisch. Intern berechnet und speichert das Programm alle Werte als geografische Werte, das kann Auswirkungen haben, wenn Sie später dieselbe Szenerie an einen anderen Ort der Welt verschieben. Wenn Sie keine Masseinheit festlegen, wird die in den Voreinstellungen festgelegte Masseinheit benutzt. Das Gradsymbol "°" ist optional und kann weggelassen werden, z.B. "25geo".
+
+<H5>Landebahn ID</H5>
+Die Landebahn ID ist die Kennung, die am Bahnende aufgemalt steht, und sie ist ist die Bezeichnung, mit der Piloten auf eine bestimmte Landebahn eines Flughafens verweisen. Man hat sich darauf geeinigt, dass diese Zahl der magnetischen Kompassdrehung der Landebahn entspricht. Diese Gradzahl wird dann durch 10 geteilt und auf den nächsten geraden Wert auf-/abgerundet. Wenn zwei Bahnen die gleiche Drehung haben, dann bekommt die linke die "L"-Zusatzbezeichnung, und die rechte einen "R"-Zusatz. Bei drei Landebahnen hat die mittlere einen "C"-Zusatz. Die ID für das andere Bahnende wird automatisch vom Programm bestimmt. Unsere Landebahn, die bei 34°mag gedreht ist, bekommt jetzt die ID "3".
+
+<H5>Markierungen und Lichter</H5>
+Diese Karte verändert das Aussehen der Markierungen der Bahn und der Beleuchtung. Man kann am besten die Bedeutung dieser Parameter lernen, wenn man das Ergebnis der Einstellungen im Flugsimulator ausprobiert. Sie können diese in der "Runway Gallery" Beispiel-Datei im Ordner "samples" ansehen. Um diese Dateien auszuprobieren, öffnen Sie eine zu Ihrer Flugsimulatorversion passende und exportieren Sie diese. Folgen Sie dazu den Installations-Anweisungen weiter unten im Tutorial.
+
+<H5>Texturen</H5>
+Diese Karte verändert die Art der Bahnoberfläche. Für jetzt, lassen Sie die Overrun-Flächen auf "automatisch" und wählen Sie irgendeine Bahnoberfläche aus.
+
+<H5>Weiter</H5>
+Drücken Sie OK, um die Landebahn zu erstellen.
+
+<A HREF="tutorials\tutb2.html">[Back]</A><A HREF="tutorials\tutb4.html">[Next]</A><A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tutb4.html
+Title: Die Grundlagen: Lektion 4
+
+<H5>Erstellen der Bodenfläche</H5>
+
+Jetzt sind wir soweit, dass wir einen Untergrund erstellen können. Durch "Rechtsklick auf die Arbeitsfläche, "neues 2D-Objekt..." und "Polygon" bauen wir einen Bodenpolygon.Jetzt müssen wir uns mit der Texturauswahl befassen. Klicken Sie in das Textfeld, um den Auswahldialog anzuzeigen.Suchen Sie die Datei "grass.r8" und klicken Sie "OK". Dann klicken Sie im Polygon-Eigenschaftsmenü nochmal OK, um den Polygon endgültig zu erstellen.
+
+<H5>Grösse ausrichten</H5>
+Ein Polygon ist etwas anders auf der Arbeitsfläche zu handhaben als die Landebahn. Sie müssen die Eckpunkte einzeln verschieben und setzen. Zunächst besteht ein Polygon aus 3 Punkten eines Dreiecks. Ziehen Sie jeden Punkt mit dem Mauszeiger an die gewünschte Stelle, bis dass der Polygon z.B. Ihre Landebahn überdeckt. Wenn Sie einen neuen Punkt brauchen, klicken Sie auf eine der drei Linien, und genau an dieser Stelle des Mauszeigers wird ein neuer Punkt im Polygon eingefügt. Auf diese Weise können Sie die Form und Grösse des Polygons auf nahezu jede gewünschte Weise anpassen. Wenn Sie einen unerwünschten Punkt löschen wollen, wählen Sie in an, indem Sie den Mauszeiger genau auf ihn führen und die linke Maustaste klicken. Dann drücken sie die "Entf" ("Del") Taste, und er wird gelöscht.
+
+<H5>Die Landebahn wieder sichtbar machen</H5>
+Sie werden festgestellt haben, dass der Polygon jetzt die Landebahn verdeckt. Um den Polygon unter die Landebahn zu legen, wählen Sie irgendeinen Punkt des Polygons an, klicken Sie die rechte Maustaste, wählen Sie "ordnen" und "zum untersten". Jetzt ist Ihre Landebahn wieder sichtbar.
+
+<A HREF="tutorials\tutb3.html">[Back]</A><A HREF="tutorials\tutb5.html">[Next]</A><A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tutb5.html
+Title: Die Grundlagen: Lektion 5
+
+<H5>Füllen mit Land</H5>
+
+<WARN>Nur fürFS2000, CFS2, FS2002 und höher</WARN>
+
+Zwar haben wir die Szeneriehöhe bereits vorher festgelegt, aber wir müssen dem Flugsimulator noch die Grenzen und Rolleigenschaften der Bodenszenerie festlegen. Das ist deswegen notwendig, weil die neueren Versionen des Flugsimulators mehrere Bodenhöhen in einem kleinen Szenerieareal haben können. Dazu erzeugen Sie ein Abflachgebiet, indem Sie rechtsklicken und "neues Objekt...verschiedene" und "Abflachgebiet" anwählen. Falls diese Option nicht verfügbar ist, stellen Sie sicher, dass in Ihren Programmvoreinstellungen die korrekte Version des installierten Flugsimulators in der Dialogbox angewählt ist. Setzen Sie die Höhe auf dieselbe wie zuvor (10m, 32.8ft) und klicken Sie "OK".
+
+Jetzt ziehen Sie die Punkte dieses Abflachgebiets und fügen Sie neue hinzu, bis dass die Landebahn und der Polygon komplett abgedeckt sind. Damit wird die Begrenzung des Plateaus festgelegt. Ausserhalb dieses Gebiets wird das Terrain schräg auf die Originalhöhe abfallen, in unserem Fall auf 0m Meereshöhe.
+
+<WARN>Nur FS2000</WARN>
+
+Weil da, wo wir unsere Insel bauen, ursprünglich Ozean ist, müssen wir dem Flugsimulator sagen, dass hier jetzt Land sein soll. Dazu klicken wir mit der rechten Maustaste im Bereich der Landebahnmitte und wählen "neues 2D-Objekt" und "Landebahn". Klicken Sie die Optionen "Landebahn sichtbar" und "Airport and Facilities Eintrag" aus, so dass sie deaktiviert sind, setzen Sie die Ausdehnung horizontal auf 2000m (6560ft) und vertikal auf 4000m (13120ft) und klicken Sie "OK". Die neue "unsichtbare" Landebahn sollte den Bodenpolygon und Ihre reale Landebahn abdecken. Es gibt in FS2000 leider keine andere Möglichkeit, die Rolleigenschaften einer Szenerie zu verändern. Wenn wir eine solche unsichtbare Landebahn nicht erstellen, dann wird unser Flugzeug beim Rollen über die Grasfläche "festhängen" und am Boden kleben, weil die Originaloberfläche "Ozeanwellen" hier noch gültig ist, obwohl wir einen Bodenpolygon mit Grasstextur erstellt haben.
+
+<H5>Rolleigenschaften</H5>
+
+<WARN>Nur FS2002 und höher</WARN>
+
+Weil da, wo wir unsere Insel bauen, ursprünglich Ozean ist, müssen wir dem Flugsimulator sagen, dass hier jetzt Land sein soll. Dazu klicken wir mit der rechten Maustaste im Bereich der Landebahnmitte und wählen "neues Objekt...verschiedenes" und "Oberflächengebiet". Stellen Sie sicher, dass der Typ auf "weiche Rollfläche" gesetzt ist, setzen Sie die Ausdehnung horizontal auf 2000m (6560ft) und vertikal auf 4000m (13120ft) und klicken Sie "OK". Die Box sollte in jedem Fall die gesamte Landebahnfläche abdecken. 
+
+<A HREF="tutorials\tutb4.html">[Back]</A><A HREF="tutorials\tutb6.html">[Next]</A><A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tutb6.html
+Title: Die Grundlagen: Lektion 6
+
+<H5>Speichern und exportieren</H5>
+
+Jetzt ist es an der Zeit, unsere Szenerie zu sichern. Wählen Sie "Speichern unter" aus dem Dateimenü, um die Datei abzuspeichern. Wählen Sie Pfad und Dateiname, unter dem Sie die Projektdatei abspeichern wollen. Damit wird das Projekt auf der Festplatte abgespeichert, so dass Sie es später weiterbearbeiten können. Aber es existiert bisher nur als programminternes FS-Scenery-Creator Projekt und ist noch nicht für die Ansicht im Flugsimulator bereit. Dazu wählen Sie "Exportieren mit Scenery Wizard" aus dem Dateimenü. Die Standardeinstellungen legen fest, dass die fertige Szenerie in einem neuen Ordner in Ihrem FS\scenery Verzeichnis installiert wird. Wir akzeptieren das und klicken "OK".
+
+<WARN>FS98, CFS1</WARN>
+Jetzt müssen Sie dem Flugsimulator sagen, dass Sie eine neue Szenerie haben. Starten Sie den Flugsimulator, falls noch nicht geschehen. Wählen Sie "Szenerie-Datenbank" aus dem "Welt" Menü. Quittieren Sie den Warnhinweis mit "OK". Stellen Sie sicher, das "FS Weltszenerie" jetzt angewählt ist, und klicken Sie "Dateien" und "hinzufügen". In die Pfadangabe, schreiben Sie "=:\=\scenery\SceneryName\SCENERY\*.BGL" (ohne die Anführungszeichen...). In "Szeneriename", geben Sie den Namen ein, den Sie Ihrer Szenerie in den Szenerieeigenschaften gegeben haben. Jetzt sollte der Rest der Dialogbox aufleuchten. Geben Sie den Namen des Flughafens in "Szenerietitel" ein. Der Szenerietyp sollte "lokal" sein, und die "aktiv" Box sollte aktiviert sein. Klicken Sie auf "OK" bei allen Dialogfenstern, die jetzt aufgehen, und ihre neue Szenerie sollte geladen werden.
+
+<WARN>FS2000, CFS2, FS2002</WARN>
+Ihre neue Szenerie sollte automatisch installiert werden. Falls die Szenerie nicht wie gewünscht angezeigt wird, oder falls Szenerieelemente fehlen, schliessen Sie den Flugsimulator und starten Sie ihn neu.
+
+<H5>Die Szenerie betrachten</H5>
+Aus dem "Welt" Menü, wählen Sie "Gehe zu ... Flughafen". Suchen Sie Ihren Flughafen durch Namenseingabe oder Scrollen, bis Sie den Namen gefunden haben, den Sie Ihrem Flughafen in den Szenerieeigenschaften gegeben hatten. Klicken Sie "OK", um an Ihren Flughafen gesetzt zu werden.Voila!
+
+<A HREF="tutorials\tutb5.html">[Back]</A><A HREF="tutorials\tutb7.html">[Next]</A><A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tutb7.html
+Title: Die Grundlagen: Lektion 7
+
+<H5>Letzte Anmerkungen</H5>
+
+Damit endet das Grundtutorial. Eine Beispieldatei mit der Szenerie, die wir eben gebaut haben, ist im "Samples" Ordner zu finden. Machen Sie Pause, bevor Sie weitere Tutorialschritte unternehmen.
+
+Falls es Ihnen so vorkommt, dass diesem Tutorial etwas fehlt, bitte senden Sie dem Autor eine e-mail <A HREF="mailto:fsschelp@yahoo.com">fsschelp@yahoo.com</A>.
+
+<A HREF="tutorials\tutb6.html">[Back]</A>[Next]<A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tutc1.html
+Title: Die Objekte: Lektion 1
+
+<H5>Einige Anmerkungen:</H5>
+
+Verschiedene Flugsimulatorversionen haben jeweils andere Anforderungen und Möglichkeiten im Szeneriedesign. Beachten Sie die dementsprechend die Hinweise im Tutorial, wenn Verweise auf eine bestimmte Flugsimulatorversion auftauchen (FS95, FS98, CFS1, FS2000, CFS2, FS2002).
+
+Sie sollten in jedem Falle den Abschnitt <A HREF="tutorials\tuta1.html">Erste Schritte</A> des Tutorials zuerst lesen.
+
+Das Tutorial nimmt an, dass Sie das Original FS Scenery Creator -Farbschema verwenden. Sie sollten ausserdem überprüfen, ob in den Voreinstellungen die richtige Version Ihres installierten Flugsimulators angeklickt ist, da viele bestimmte Funktionen nicht von allen Versionen des Flugsimulators unterstützt werden und daher in solchen Fällen deaktiviert sind.
+
+<H5>Start:</H5>
+
+Falls noch nicht geschehen, starten Sie FS Scenery Creator: Klicken Sie auf "Start", dann auf "Programme", suchen Sie "Leung Software", und klicken Sie auf FS Scenery Creator.
+
+[Back]<A HREF="tutorials\tutc2.html">[Next]</A><A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tutc2.html
+Title: Die Objekte: Lektion 2
+
+<H5>Die 2D-Objekte</H5>
+
+Die Landebahn und den Bodenpolygon haben Sie im letzten Tutorial bereits in Aktion gesehen. Wir werden jetzt zu den anderen 2D-Objekten wie Taxiways, Strassen, Flüssen, Linien und Taxiway-Linien übergehen.
+
+<H5>Taxiway, Strassen und Flüsse</H5>
+Diese drei Objekte funktionieren auf die gleiche Weise. Erstellen Sie einen Taxiway: Rechtsklick auf die Arbeitsfläche, wählen Sie 2D-Objekte und Taxiway. Wir werden auch die Mittellinien-Punktmarkierungen aktivieren. Aktivieren Sie das "Punkte"-Kästchen. Jetzt können Sie den Abstand zwischen den einzelnen Punkten sowie Punktfarbe auswählen. Klicken Sie "OK", um den Taxiway zu erstellen. Jetzt können Sie, genau wie beim Polygon, die Punkte auseinanderziehen und durch Klick auf die Linie einen neuen Punkt einfügen. In unserem Beispiel zeichnen wir einen Taxiway, der parallel zur Landebahn verläuft, als Wendepfad. Klicken Sie irgendwo auf einen Abschnitt des Taxiway, um einen neuen Punkt einzufügen. Schieben Sie diesen Punkt mit dem Mauszeiger an die Landebahn heran, lassen Sie die linke Maustaste los, und derTaxiway-Punkt wird genau an die Landebahn herangeführt. Erzeugen Sie jetzt einen neuen Punkt und führen Sie den Taxiway auf den ersten Punkt zurück. Immer, wenn Sie einen Punkt nahe genug an einen anderen Punkt oder an eine Linie führen, wird der Punkt automatisch exakt an den Punkt oder die Linie angesetzt. Dieses "Snap"-Feature ("Punkte an nächste Linie anführen") kann in den Programm-Voreinstellungen an- bzw. abgeschaltet werden.
+
+Abhängig davon, wie Sie den Taxiway und Punkte gesetzt haben, könnten Sie einige ungewollte Zufallslinien sehen, wo einzelne Abschnitte zusammengehen. Das ist gewollt, da dasselbe im Flugsimulator auftreten wird. Immer dann, wenn eine 180°-Drehung zwischen zwei Linienabschnitten erfolgt, wird die Flugsimulatorgrafik-Engine durcheinandergebracht und zeigt diese ungewollten Linienverlängerungen. Allerdings kann in so einem Fall sowieso einer der betreffenden überlappenden Abschnitte abgeschaltet werden. Dazu wählen Sie einen der zugehörigen Punkte an, öffnen Sie das Eigenschaften-Fenster (F4-Taste), und wählen Sie dann "Unsichtbar" für den Linientyp.
+
+Wenn Sie fertig sind, können Sie Ihr Resultat mit der Beispieldatei "Objects Tutorial" aus dem Samples-Ordner vergleichen.
+
+Strassen und Flüsse funktionieren in gleicher Weise. <WARN>FS2000, CFS2, FS2002, und höher:</WARN> Strassen haben einen zusätzlichen "Typ"-Parameter. Sie können aus einer Liste zwischen verschiedenen Strassen-/Eisenbahntypen auswählen.
+
+<H5>Linien</H5>
+Die Linie kann in verschiedener Weise benutzt werden: als durchgezogene Linie, als unterbrochene beleuchtete Punktlinie, oder um eine Serie von 3D-Objekten zu zeichnen. Um eine dünne Linie zu zeichnen, setzen Sie die Breite auf 0.1m (0.328ft). Wenn Sie diese Option verwenden, können Sie keine Textur, sondern nur eine Farbe anwählen. Um eine dicke Linie zu zeichnen, setzen Sie die gewünschte Breite, und wählen Sie dann eine Textur oder Farbe. Um eine Punktlinie zu zeichnen, aktivieren Sie das "Punkte"-Kästchen, und um eine Serie von 3D-Objekten zu zeichnen, wählen Sie den Objekttyp in der Auswahlbox und klicken Sie "Bearbeiten", um die Objekteigenschaften zu ändern. Diese Objekteigenschaften werden im nächsten Teil des Tutorials erklärt.
+
+<H5><WARN>Nur FS2002 und höher:</WARN> Taxiway Linie</H5>
+Diese Taxiway-Linien entsprechen in ihrer Art denen aus der Originalszenerie des FS2002. Zuerst wählen Sie die Art der Linie aus. Der Bogen-Radius Parameter legt die Krümmung der Kurven und Ecken fest. Stellen Sie sich einen Kreis mit dem angegebenen Radius vor, der den gewinkelten Ecken anliegt, die Sie gezeichnet haben. Und genau mit so einem Kreisbogen werden die Ecken ihres Taxiway gekrümmt im Flugsimulator gezeichnet.
+
+<A HREF="tutorials\tutc1.html">[Back]</A><A HREF="tutorials\tutc3.html">[Next]</A><A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tutc3.html
+Title: Die Objekte: Lektion 3
+
+<H5>Die 3D-Objekte</H5>
+
+Es gibt zwei Arten von 3D-Objekten: das Gebäude und das Makro. (Makros müssen nicht unbedingt immer 3D-Objekte darstellen, aber sie tun es in den allermeisten Fällen).
+
+<H5>Gebäude:</H5>
+Das Gebäudeobjekt lässt Sie auf schnelle Weise eine 3D-Struktur in die Szenerie einbringen. Rechtsklick auf die Arbeitsfläche, 3D-Objekt und Gebäude auswählen. Geben Sie die gewünschte Länge und Breite des Gebäudes ein, dann wählen Sie den gewünschten Gebäudetyp.
+
+Nehmen wir einmal an, Sie haben eine Szenerie mit einer Menge von Gebäuden. Jetzt möchten Sie vielleicht dem Anwender der Szenerie erlauben, einige Gebäude von der Anzeige im Flugsimulator auszunehmen, um flüssigere Bildwiederholraten zu erhalten. Normalerweise kann das über die Einstellung der "Szeneriedichte" erfolgen. Das ist eine Option, die im Flugsimulator des Anwenders einstellbar ist. Wenn Sie in FS Scenery Creator ein Objekt mit Szeneriedichte auf "Dicht" erstellen, dann wird im Flugsimulator das Objekt nur dann dargestellt, wenn in den FS-Voreinstellungen die Szeneriekomplexität auf "Dicht" oder höher eingestellt ist.
+
+Jetzt klicken Sie auf die "Niveaus"-Menükarte. Abhängig von Ihrer Typauswahl können Sie die Eigenschaften der verschiedenen Sektionen des Gebäudes einstellen, diese über das "Niveau"-Auswahlfenster angesteuert. Für jede Sektion getrennt können Sie die Textur verändern, wie auch die Zahl, mit der die Textur auf dieser Sektion wiederholt wird. Eine perspektivisch allerdings nicht immer richtige Voransicht zeigt Ihnen das Ergegnis, wenn Sie Textur und Wiederholrate verändern.
+
+Klicken Sie "OK", um das Gebäude zu erstellen.
+
+<H5>Makros:</H5>
+The Macro is the most powerful object in the program. With the macro, you have the ability to place objects that are not provided to you by the FS Scenery Creator program. When you create a macro, the first thing to do is to select the type of macro. You can click through the tree of macros, or browse for a file on your hard disk. Many macros of different objects are available on the Internet. Visit the FS Scenery Creator website for some webpage links. Once you have downloaded macros, you can set the "Macro Folder" locations in the Preferences box so that the macros are automatically added to your Macro list.
+
+Macros are sometimes customizable. For example, select Macros\Structure\Observatory, and then click on the Parameters tab. There will be two customizable options: the colors of the two sections. For any parameter that requires a color, click on the text field, and the click on the "Color" tab. You can select textures similarly.
+
+Press OK to create the macro.
+
+<A HREF="tutorials\tutc2.html">[Back]</A><A HREF="tutorials\tutc4.html">[Next]</A><A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tutc4.html
+Title: Die Objekte: Lektion 4
+
+<H5><WARN>Nur FS95, FS98, und CFS1:</WARN> ATIS</H5>
+Das ATIS-Objekt erzeugt einen ATIS-Transmitter (Automatic Terminal Information System). Das ist ein Sender, der eine stets wiederholte Nachricht sendet. Der "Text"-Parameter kontrolliert das, was übertragen wird. Neben normalem statischem Text können Sie auch bestimmte "Shortcuts" hier einbringen (durch Klick auf das "Einfügen"-Feld). Das erlaubt es Ihnen, veränderliche Informationen wie Wetterbedingungen oder die momentane Uhrzeit dort aufzunehmen.
+
+<H5>VOR, NDB</H5>
+Diese Objekte lassen Sie entweder ein VOR (Very High Frequency Omnidirectional Range) oder ein NDB (Non-Directional Radio Beacon) in Ihre Szenerie einfügen. Durch aktivieren der "Eintrag im Facility Database"-Option wird dieser Sender auch in der "Einrichtungen"-Datenbank des Flugsimulators erscheinen.
+
+<H5><WARN>FS2002, CFS2 und höher:</WARN> Kontrollturm</H5>
+Der Kontrollturm erlaubt Ihnen, eine Frequenz für Ihren Flughafen sowie die Lokalisation der "Kontrollturmansicht" festzulegen. Beachten Sie, dass mit diesem Objekt keinesfalls ein sichtbarer Kontrollturm erstellt wird. Dafür gibt es diverse "control-tower" Makros.
+
+<A HREF="tutorials\tutc3.html">[Back]</A><A HREF="tutorials\tutc5.html">[Next]</A><A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tutc5.html
+Title: Die Objekte: Lektion 5
+
+<H5>Menü-Eintrag</H5>
+Um eine Startposition z.B. am Landebahnanfang auf Ihrer Szenerie festzulegen, benutzen Sie den Menüeintrag. Dieser Eintrag wird unter "Szenerie aus FS6.0 und früher" in FS98 erscheinen, dagegen in FS2000 und CFS2 unter "Szenerie aus FS95 und früher" bzw. in FS2002 unter "Add-on Szenerie" in FS2002 auftauchen. Für die neueren Flugsimulatorversionen können Sie aber auch für die Landebahnen das "Airport and facilities-Eintrag" Kästchen bei der Erstellung der Landebahn aktivieren.
+
+<H5>Hintergrundbild</H5>
+Wenn Sie ein Satellitenbild ihres Wunschflughafens haben, können Sie es hier auf die Arbeitsfläche einfügen. Sie müssen dazu entweder die genaue Lokalisation zweier Ecken kennen oder aber den Massstab (m oder ft pro pixel) kennen, um das Bild korrekt zu positionieren.
+
+<H5>Szenerieausschluß</H5>
+Wenn Sie an einem Ort arbeiten, wo es bereits einen Original-Flughafen in der Szenerie gibt, können Sie diese sichtbare Originalszenerie ganz oder teilweise mit dem Ausschlußobjekt aus der Darstellung abschalten. Dieses Feature können Sie auch für die gesamte Szenerie im Szenerie-Eigenschaften-Dialog anwählen.
+
+<A HREF="tutorials\tutc4.html">[Back]</A><A HREF="tutorials\tutc6.html">[Next]</A><A HREF="tutorials\index.html">[Index]</A>
+
+File: tutorials\tutc6.html
+Title: Die Objekte: Lektion 6
+
+<H5>Schluss</H5>
+Damit schließt das Objekt-Tutorial. Wenn Sie weitere Fragen haben, konsultieren Sie den zu dem Objekt zugehörigen Abschnitt der Hilfethemen. Zusätzlich können Sie, wenn Sie nicht genau wissen, wozu ein bestimmter Parameter gut ist, den <img src="images/help.gif">Hilfebutton in der Titelleiste und dann auf den jeweiligen Parameter klicken, um eine detaillierte Hilfe zu erhalten.
+
+Viel Spass!
+
+<A HREF="tutorials\tutc5.html">[Back]</A>[Next]<A HREF="tutorials\index.html">[Index]</A>

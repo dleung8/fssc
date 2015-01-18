@@ -1,0 +1,25 @@
+<HTML>
+<HEAD><TITLE>Objet Point</TITLE></HEAD>
+<BODY><FONT FACE="Arial" SIZE=2>
+<H3>Objet Point</H3>
+
+<P>Le Point définit la forme d'un objet parent qui peut être <A HREF="reference\objects\polygon.html">un polygone</A>, <A HREF="reference\objects\taxiway.html">une voie de roulement</A>, <A HREF="reference\objects\road.html">une route</A>, <A HREF="reference\objects\river.html">un cours d'eau</A>, <A HREF="reference\objects\line.html">une ligne</A> ou <A HREF="reference\objects\flatarea.html">une zone plane</A>.</P>
+
+<DL>
+<DT><B>Outre sa <A HREF="reference\properties\position.html">position</A>, le point possède aussi un type. Les choix suivants ne sont pas tous disponibles pour tous les types d'objets :</B></DT>
+<DD><UL></DD>
+</DL>
+
+<LI><B>Visible :</B> Une ligne (ou voie de roulement, etc.) s'affiche au point suivant.
+<LI><B>Invisible :</B> Aucune connexion ne sera visible entre ce point et le suivant, et aucune ligne ne sera affichée.
+<LI><B> Pointillé :</B> Des tirets/pointilléss seront affichés jusqu'au point suivant.
+<LI><B> Voie de roulement :</B> Une ligne pointillée est dessiné le long du bord du polygone.
+</UL>
+
+<P>Les points sont créés en cliquant sur une ligne de l'objet parent ou par pression sur la touche Inser. Ils sont supprimés par la touche Suppr, ou par l'option suppression du <A HREF="ui\menus\edit.html"> menu Editer</A>.</P>
+
+<P>En-desous d'un nombre de points minimal, l'objet parent sera automatiquement supprimé. Le nombre maximal de points qui peuvent être créé dans un objet parent est de : 80 pour Combat Flight Simulator 1, 2000 pour Flight Simulator 2000 et versions ultérieure, et 30 pour une zone plane définie par une balise Aplanir.</P>
+
+<P>Le facteur Z peut être utilisé pour créer des effets divers, comme par exemple des polygones inclinés. Toutefois, ce facteur ne devrait être manipulé que par les utilisateurs expérimentés.</P>
+
+</FONT></BODY></HTML>

@@ -1,0 +1,492 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Annexes">
+		<param name="Name" value="Annexes">
+		<param name="Local" value="appendix\index.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Aperçu">
+		<param name="Name" value="Aperçu du logiciel">
+		<param name="Local" value="overview.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Barre d'outils">
+		<param name="Name" value="Barre d'outils">
+		<param name="Local" value="ui\toolbar.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Cap">
+		<param name="Name" value="Rotation">
+		<param name="Local" value="reference\properties\rotation.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Conditions d'utilisation">
+		<param name="Name" value="Licence pour l'Utilisateur Final">
+		<param name="Local" value="appendix\eula.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Contenu">
+		<param name="Name" value="Flight Simulator Scenery Creator">
+		<param name="Local" value="index.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Couleur">
+		<param name="Name" value="Couleur">
+		<param name="Local" value="reference\properties\color.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Editeur">
+		<param name="Name" value="Commandes de l'éditeur (Référence rapide)">
+		<param name="Local" value="ui\editor.html">
+		<param name="Name" value="Touches rapides">
+		<param name="Local" value="ui\keys.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="En-tête">
+		<param name="Name" value="Propriétés de la scène">
+		<param name="Local" value="reference\Scenery.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FAQ">
+		<param name="Name" value="Foire aux Questions">
+		<param name="Local" value="faq.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Historique">
+		<param name="Name" value="Nouveautés & historique">
+		<param name="Local" value="appendix\history.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Inclusion">
+		<param name="Name" value="Objet Macro">
+		<param name="Local" value="reference\objects\macro.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Index">
+		<param name="Name" value="Flight Simulator Scenery Creator">
+		<param name="Local" value="index.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Interface">
+		<param name="Name" value="Commandes de l'éditeur (Référence rapide)">
+		<param name="Local" value="ui\editor.html">
+		<param name="Name" value="Interface Utilisateur">
+		<param name="Local" value="ui\index.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Interface Graphique">
+		<param name="Name" value="Interface Utilisateur">
+		<param name="Local" value="ui\index.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Interface Utilisateur">
+		<param name="Name" value="Interface Utilisateur">
+		<param name="Local" value="ui\index.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Interface utilisateur">
+		<param name="Name" value="Barre d'outils">
+		<param name="Local" value="ui\toolbar.html">
+		<param name="Name" value="Menus">
+		<param name="Local" value="ui\menus\index.html">
+		<param name="Name" value="Touches rapides">
+		<param name="Local" value="ui\keys.html">
+		<param name="Name" value="Unités de Mesure">
+		<param name="Local" value="ui\units.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Barre d'outils">
+			<param name="Name" value="Barre d'outils">
+			<param name="Local" value="ui\toolbar.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Menus">
+			<param name="Name" value="Menus">
+			<param name="Local" value="ui\menus\index.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Touches rapides">
+			<param name="Name" value="Touches rapides">
+			<param name="Local" value="ui\keys.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Unités de Mesure">
+			<param name="Name" value="Unités de Mesure">
+			<param name="Local" value="ui\units.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Editeur">
+			<param name="Name" value="Commandes de l'éditeur (Référence rapide)">
+			<param name="Local" value="ui\editor.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Latitude/Longitude">
+		<param name="Name" value="Propriétés des Positions (X/Y et Latitude/Longitude)">
+		<param name="Local" value="reference\properties\position.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Licence">
+		<param name="Name" value="Licence pour l'Utilisateur Final">
+		<param name="Local" value="appendix\eula.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Licence pour l'Utilisateur Final">
+		<param name="Name" value="Licence pour l'Utilisateur Final">
+		<param name="Local" value="appendix\eula.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Menus">
+		<param name="Name" value="Menu Affichage">
+		<param name="Local" value="ui\menus\view.html">
+		<param name="Name" value="Menu Aide">
+		<param name="Local" value="ui\menus\help.html">
+		<param name="Name" value="Menu Editer">
+		<param name="Local" value="ui\menus\edit.html">
+		<param name="Name" value="Menu Fichier">
+		<param name="Local" value="ui\menus\file.html">
+		<param name="Name" value="Menus">
+		<param name="Local" value="ui\menus\index.html">
+		<param name="Name" value="Menu Outils">
+		<param name="Local" value="ui\menus\tools.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Afficher">
+			<param name="Name" value="Menu Affichage">
+			<param name="Local" value="ui\menus\view.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Aide">
+			<param name="Name" value="Menu Aide">
+			<param name="Local" value="ui\menus\help.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Editer">
+			<param name="Name" value="Menu Editer">
+			<param name="Local" value="ui\menus\edit.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Fichier">
+			<param name="Name" value="Menu Fichier">
+			<param name="Local" value="ui\menus\file.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Outils">
+			<param name="Name" value="Menu Outils">
+			<param name="Local" value="ui\menus\tools.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Nouveautés">
+		<param name="Name" value="Nouveautés & historique">
+		<param name="Local" value="appendix\history.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Objet Tour">
+		<param name="Name" value="Objet Tour de contrôle">
+		<param name="Local" value="reference\objects\tower.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Objets">
+		<param name="Name" value="Objets : Référence">
+		<param name="Local" value="reference\objects\index.html">
+		<param name="Name" value="Objet Piste">
+		<param name="Local" value="reference\objects\runway.html">
+		<param name="Name" value="Objet Polygone">
+		<param name="Local" value="reference\objects\polygon.html">
+		<param name="Name" value="Objet Voie de roulement">
+		<param name="Local" value="reference\objects\taxiway.html">
+		<param name="Name" value="Objet Route">
+		<param name="Local" value="reference\objects\road.html">
+		<param name="Name" value="Objet Cours d'eau">
+		<param name="Local" value="reference\objects\river.html">
+		<param name="Name" value="Objet Ligne">
+		<param name="Local" value="reference\objects\line.html">
+		<param name="Name" value="Objet Ligne de roulage">
+		<param name="Local" value="reference\objects\taxiwayline.html">
+		<param name="Name" value="Objet Bâtiment">
+		<param name="Local" value="reference\objects\building.html">
+		<param name="Name" value="Objet Macro">
+		<param name="Local" value="reference\objects\macro.html">
+		<param name="Name" value="Objet Tour de contrôle">
+		<param name="Local" value="reference\objects\tower.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Bâtiment">
+			<param name="Name" value="Objet Bâtiment">
+			<param name="Local" value="reference\objects\building.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Cours d'eau">
+			<param name="Name" value="Objet Cours d'eau">
+			<param name="Local" value="reference\objects\river.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Inclusion">
+			<param name="Name" value="Objet Macro">
+			<param name="Local" value="reference\objects\macro.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Ligne">
+			<param name="Name" value="Objet Ligne">
+			<param name="Local" value="reference\objects\line.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Ligne de roulage">
+			<param name="Name" value="Objet Ligne de roulage">
+			<param name="Local" value="reference\objects\taxiwayline.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Macro">
+			<param name="Name" value="Objet Macro">
+			<param name="Local" value="reference\objects\macro.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Piste">
+			<param name="Name" value="Objet Piste">
+			<param name="Local" value="reference\objects\runway.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Polygone">
+			<param name="Name" value="Objet Polygone">
+			<param name="Local" value="reference\objects\polygon.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Route">
+			<param name="Name" value="Objet Route">
+			<param name="Local" value="reference\objects\road.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Voie de roulement">
+			<param name="Name" value="Objet Voie de roulement">
+			<param name="Local" value="reference\objects\taxiway.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Position">
+		<param name="Name" value="Propriétés des Positions (X/Y et Latitude/Longitude)">
+		<param name="Local" value="reference\properties\position.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Propriétés">
+		<param name="Name" value="Propriétés">
+		<param name="Local" value="reference\properties\index.html">
+		<param name="Name" value="Propriétés des Positions (X/Y et Latitude/Longitude)">
+		<param name="Local" value="reference\properties\position.html">
+		<param name="Name" value="Rotation">
+		<param name="Local" value="reference\properties\rotation.html">
+		<param name="Name" value="Couleur">
+		<param name="Local" value="reference\properties\color.html">
+		<param name="Name" value="Texture">
+		<param name="Local" value="reference\properties\texture.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Propriétés de la scène">
+		<param name="Name" value="Propriétés de la scène">
+		<param name="Local" value="reference\Scenery.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Couleur">
+			<param name="Name" value="Couleur">
+			<param name="Local" value="reference\properties\color.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Position">
+			<param name="Name" value="Propriétés des Positions (X/Y et Latitude/Longitude)">
+			<param name="Local" value="reference\properties\position.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Rotation">
+			<param name="Name" value="Rotation">
+			<param name="Local" value="reference\properties\rotation.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Texture">
+			<param name="Name" value="Texture">
+			<param name="Local" value="reference\properties\texture.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Préférences">
+		<param name="Name" value="Macros Favorites">
+		<param name="Local" value="ui\options\macros.html">
+		<param name="Name" value="Préférences">
+		<param name="Local" value="ui\options\settings.html">
+		<param name="Name" value="Outils préférés">
+		<param name="Local" value="ui\options\tools.html">
+		<param name="Name" value="Couleurs">
+		<param name="Local" value="ui\options\colors.html">
+		<param name="Name" value="Divers">
+		<param name="Local" value="ui\options\miscell.html">
+		<param name="Name" value="Fenêtre de Préférences">
+		<param name="Local" value="ui\options\index.html">
+		<param name="Name" value="Emplacements">
+		<param name="Local" value="ui\options\locations.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Couleurs">
+			<param name="Name" value="Couleurs">
+			<param name="Local" value="ui\options\colors.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Divers">
+			<param name="Name" value="Divers">
+			<param name="Local" value="ui\options\miscell.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Emplacements">
+			<param name="Name" value="Emplacements">
+			<param name="Local" value="ui\options\locations.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Macros Favorites">
+			<param name="Name" value="Macros Favorites">
+			<param name="Local" value="ui\options\macros.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Outils préférés">
+			<param name="Name" value="Outils préférés">
+			<param name="Local" value="ui\options\tools.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Réglages">
+			<param name="Name" value="Préférences">
+			<param name="Local" value="ui\options\settings.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Questions">
+		<param name="Name" value="Foire aux Questions">
+		<param name="Local" value="faq.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Raccourcis.">
+		<param name="Name" value="Touches rapides">
+		<param name="Local" value="ui\keys.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Remerciements">
+		<param name="Name" value="Remerciements">
+		<param name="Local" value="appendix\thanks.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Responsabilité">
+		<param name="Name" value="Licence pour l'Utilisateur Final">
+		<param name="Local" value="appendix\eula.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Rotation">
+		<param name="Name" value="Rotation">
+		<param name="Local" value="reference\properties\rotation.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Référence">
+		<param name="Name" value="Référence">
+		<param name="Local" value="reference\index.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Référence rapide">
+		<param name="Name" value="Commandes de l'éditeur (Référence rapide)">
+		<param name="Local" value="ui\editor.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Texture">
+		<param name="Name" value="Texture">
+		<param name="Local" value="reference\properties\texture.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Unités de Mesure">
+		<param name="Name" value="Unités de Mesure">
+		<param name="Local" value="ui\units.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="X/Y">
+		<param name="Name" value="Propriétés des Positions (X/Y et Latitude/Longitude)">
+		<param name="Local" value="reference\properties\position.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="objets">
+		<param name="Name" value="Objet Zone Plane">
+		<param name="Local" value="reference\objects\flatarea.html">
+		<param name="Name" value="Objet NDB">
+		<param name="Local" value="reference\objects\ndb.html">
+		<param name="Name" value="Objet Surface dure">
+		<param name="Local" value="reference\objects\surfacearea.html">
+		<param name="Name" value="Objet Point">
+		<param name="Local" value="reference\objects\point.html">
+		<param name="Name" value="Objet ATIS">
+		<param name="Local" value="reference\objects\atis.html">
+		<param name="Name" value="Objet VOR">
+		<param name="Local" value="reference\objects\vor.html">
+		<param name="Name" value="Objet Position initiale">
+		<param name="Local" value="reference\objects\menuentry.html">
+		<param name="Name" value="Objet Exclusion">
+		<param name="Local" value="reference\objects\exclusion.html">
+		<param name="Name" value="Objet Image d'arrière-plan">
+		<param name="Local" value="reference\objects\background.html">
+		<param name="Name" value="SCASM Code Objet">
+		<param name="Local" value="reference\objects\code.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value=" Objet Image d'arrière-plan">
+			<param name="Name" value="Objet Image d'arrière-plan">
+			<param name="Local" value="reference\objects\background.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ATIS">
+			<param name="Name" value="Objet ATIS">
+			<param name="Local" value="reference\objects\atis.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Code SCASM">
+			<param name="Name" value="SCASM Code Objet">
+			<param name="Local" value="reference\objects\code.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Exclusion">
+			<param name="Name" value="Objet Exclusion">
+			<param name="Local" value="reference\objects\exclusion.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="NDB">
+			<param name="Name" value="Objet NDB">
+			<param name="Local" value="reference\objects\ndb.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Point">
+			<param name="Name" value="Objet Point">
+			<param name="Local" value="reference\objects\point.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Position initiale">
+			<param name="Name" value="Objet Position initiale">
+			<param name="Local" value="reference\objects\menuentry.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Surface dure">
+			<param name="Name" value="Objet Surface dure">
+			<param name="Local" value="reference\objects\surfacearea.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="VOR">
+			<param name="Name" value="Objet VOR">
+			<param name="Local" value="reference\objects\vor.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="zone plane">
+			<param name="Name" value="Objet Zone Plane">
+			<param name="Local" value="reference\objects\flatarea.html">
+			</OBJECT>
+</UL>
+</BODY></HTML>

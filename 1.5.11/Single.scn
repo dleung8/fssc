@@ -1,0 +1,67 @@
+[General]
+Version=19
+Count=2
+AFDRefresh=0
+ExportPath=D:\Program Files\Microsoft Games\FS2002\Scenery\Untitled
+
+[Header]
+Author=Derek
+Copyright=Copyright © 2002 by Derek
+Name=Untitled Scenery
+LanguageCode=US English - 409
+Region=Caribbean
+Country=AnyCountry
+City=AnyTown
+ICAO=ANY
+Latitude=N00:00:00.0000
+Longitude=E000:00:00.0000
+MagVar=8.8
+
+[Runway]
+X=-1290
+Y=520
+Length=3000
+Width=46
+ID=1
+Surface=1
+Markers=255
+Edge Lights=2
+Center Lights=6
+Near Inner Marker=1
+Near Middle Marker=.5
+Near Outer Marker=5
+Near ILS Enabled=1
+Near ILS Name=A
+Near ILS ID=A
+Near ILS Frequency=110.5
+Near ILS Range=16
+Near ILS Flags=193
+Near ILS Beam Width=2.5
+Far Inner Marker=.1
+Far Middle Marker=.5
+Far Outer Marker=5
+Far ILS Enabled=1
+Far ILS Name=B
+Far ILS ID=B
+Far ILS Frequency=110.5
+Far ILS Range=16
+Far ILS Flags=193
+Far ILS Beam Width=2.5
+
+[Tower]
+X=-894
+Y=216
+Height=20
+ATIS=127.3
+MULTICOM=127.4
+UNICOM=127.5
+CTAF=127.6
+GNDCON=127.7
+CT=127.8
+CDEL=127.9
+APCON=128
+DEPCON=128.1
+CENTER=128.2
+FSS=128.3
+AWOS=128.4
+
