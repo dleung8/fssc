@@ -1,0 +1,90 @@
+[Options]
+Compatibility = 1.1 Or later
+Compiled File = help_esn.chm
+Index file = help_esn.hhk
+Contents File = help_esn.hhc
+Default Window = Main
+Default topic = Index.html
+Language=0x409 English (United States)
+Title=FS Scenery Creator Help
+
+[WINDOWS]
+Main="FS Scenery Creator Help","help_esn.hhc","help_esn.hhk","index.html","index.html",,,,,0x2120,,0x304e,,,,,,0,,0
+Tutorial="Tutorial",,,,,,,,,0x0,,0x0,,,,,,,,0
+
+[Files]
+index.html
+overview.html
+faq.html
+ui\index.html
+ui\editor.html
+ui\keys.html
+ui\units.html
+ui\toolbar.html
+ui\menus\index.html
+ui\menus\file.html
+ui\menus\edit.html
+ui\menus\tools.html
+ui\menus\view.html
+ui\menus\help.html
+ui\options\index.html
+ui\options\settings.html
+ui\options\locations.html
+ui\options\colors.html
+ui\options\macros.html
+ui\options\tools.html
+ui\options\miscell.html
+reference\index.html
+reference\scenery.html
+reference\objects\index.html
+reference\objects\runway.html
+reference\objects\polygon.html
+reference\objects\taxiway.html
+reference\objects\road.html
+reference\objects\river.html
+reference\objects\line.html
+reference\objects\taxiwayline.html
+reference\objects\building.html
+reference\objects\macro.html
+reference\objects\atis.html
+reference\objects\vor.html
+reference\objects\ndb.html
+reference\objects\tower.html
+reference\objects\menuentry.html
+reference\objects\background.html
+reference\objects\flatarea.html
+reference\objects\surfacearea.html
+reference\objects\exclusion.html
+reference\objects\code.html
+reference\objects\point.html
+reference\properties\index.html
+reference\properties\position.html
+reference\properties\rotation.html
+reference\properties\color.html
+reference\properties\texture.html
+appendix\index.html
+appendix\eula.html
+appendix\history.html
+appendix\thanks.html
+tutorials\index.html
+tutorials\tuta1.html
+tutorials\tuta2.html
+tutorials\tuta3.html
+tutorials\tuta4.html
+tutorials\tuta5.html
+tutorials\tutb1.html
+tutorials\tutb2.html
+tutorials\tutb3.html
+tutorials\tutb4.html
+tutorials\tutb5.html
+tutorials\tutb6.html
+tutorials\tutb7.html
+tutorials\tutc1.html
+tutorials\tutc2.html
+tutorials\tutc3.html
+tutorials\tutc4.html
+tutorials\tutc5.html
+tutorials\tutc6.html
+
+[TEXT POPUPS]
+what_esn.txt

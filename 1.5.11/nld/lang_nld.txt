@@ -1,0 +1,1102 @@
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+  FILEVERSION 1,5,7,0
+  BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "InternalName", "lang_nld\0"
+            VALUE "LegalCopyright", "Copyright © 2000-2003 Derek Leung\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x413, 1200	// Dutch (Netherlands)
+    END
+  END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+// Language
+STRINGTABLE DISCARDABLE 
+BEGIN
+	1000	"Dutch (Netherlands)"
+END
+
+// Titles
+STRINGTABLE DISCARDABLE 
+BEGIN
+	1010	"FS Scenery Creator"
+	1011	"Flight Simulator Scenery Creator"
+	1013	"Untitled Scenery"
+END
+
+// File names
+STRINGTABLE DISCARDABLE 
+BEGIN
+	1020	"Help_nld.chm"
+	1021	"Untitled.scn"
+END
+
+// Common buttons
+STRINGTABLE DISCARDABLE 
+BEGIN
+	1030	"&OK"
+	1031	"&Cancel"
+	1032	"&Browse"
+	1033	"&Close"
+END
+
+// Common properties
+STRINGTABLE DISCARDABLE 
+BEGIN
+	1040	"&Name:"
+	1041	"&Position Locked"
+	1042	"Relative:"
+	1043	"&X:"
+	1044	"&Y:"
+	1045	"World:"
+	1046	"L&atitude:"
+	1047	"Lon&gitude:"
+	1048	"&Rotation:"
+	1049	"Comple&xity:"
+
+	1059	"Properties"
+END
+
+// Complexity
+STRINGTABLE DISCARDABLE 
+BEGIN
+	1060	"Very Sparse"
+	1061	"Sparse"
+	1062	"Normal"
+	1063	"Dense"
+	1064	"Very Dense"
+	1065	"Extremely Dense"
+END
+
+// Units of measure
+STRINGTABLE DISCARDABLE 
+BEGIN
+	1070	"meters"
+	1071	"feet"
+	1072	"nautical miles"
+	1073	"kilometers"
+	1074	"miles"
+	1075	"degrees"
+	1076	"minutes"
+	1077	"seconds"
+	1078	"megahertz"
+	1079	"kilohertz"
+	1080	"m"
+	1081	"ft"
+	1082	"nm"
+	1083	"km"
+	1084	"mi"
+	1085	"°"
+	1086	"°geo"
+	1087	"°mag"
+	1088	"MHz"
+	1089	"kHz"
+	1090	"/pixel"
+	1091	"/unit"
+END
+
+// Header dialog
+STRINGTABLE DISCARDABLE 
+BEGIN
+	// Labels
+	1100	"&Author:"
+	1101	"Co&pyright:"
+	1102	"&Name:"
+	1103	"&Language Code:"
+	1104	"&Region:"
+	1105	"Co&untry:"
+	1106	"&State:"
+	1107	"Cit&y:"
+	1108	"&ICAO ID:"
+	1110	"&Horizontal:"
+	1111	"&Vertical:"
+	1112	"Al&titude:"
+	1113	"&Mag. Variance:"
+	1114	"&Size:"
+	1115	"&Ground Texture:"
+	1116	"&Rotation:"
+
+	// Tabs
+	1120	"Credits"
+	1121	"Airport"
+	1122	"Dimensions"
+	1123	"Scenery Exclusion"
+	1124	"Synthetic Scenery"
+
+	// Miscellaneous
+	1140	"Scenery Properties"
+	1141	"None"
+	1142	"%1 %2 wide"	// %1 = distance, %2 = unit
+	1143	"Copyright © %1 by %2"	// %1 = Year, %2 = Author
+	1144	"Author"
+END
+
+// Runway
+STRINGTABLE DISCARDABLE 
+BEGIN
+	// 1150-1299
+	1150	"&Length:"
+	1151	"&Width:"
+	1152	"&ID:"
+	1153	"Place&ment:"
+	1154	"Airport and &Facilities Entry"
+	1155	"Runway &Visible"
+
+	1160	"Runway &Markings:"
+	1161	"&Edge Lights:"
+	1162	"Cen&ter Lights:"
+	1163	"&Red Center Line Lights at Runway End"
+
+	1165	"&Far Overrun Surface:"
+	1166	"&Runway Surface:"
+	1167	"&Near Overrun Surface:"
+	1168	"Preview"
+
+	1170	"T&hreshold Length:"
+	1171	"Overr&un Length:"
+	1172	"&Threshold Lights"
+	1173	"Runway &End Identifier Lights"
+	1174	"Orange Touchdo&wn Lights"
+	1175	"&Approach Lights:"
+	1176	"# of Stro&bes:"
+	1177	"&Left VASI:"
+	1178	"&Right VASI:"
+	1179	"Automatic VASI &Distance:"
+	1180	"Hor&z. Distance:"
+	1181	"&Vert. Distance:"
+	1182	"Row &Separation:"
+	1183	"&Glide Slope:"
+	1184	"Signs Horiz. O&ffset:"
+	1185	"&VASI:"
+	1186	"&PAPI:"
+
+	1190	"Beacon Locations:"
+	1191	"Inner Marker:"
+	1192	"Middle Marker:"
+	1193	"Outer Marker:"
+	1194	"Instrument Landing System (ILS):"
+
+	1200	"None"
+	1201	"Low Intensity"
+	1202	"Medium Intensity"
+	1203	"High Intensity"
+
+	1205	"Runway center at position"
+	1206	"Near end at position"
+
+	1210	"Painted Edge Line"
+	1211	"Threshold Markings"
+	1212	"Touchdown Markings"
+	1213	"Fixed Distance Markings"
+	1214	"Center Line Dashes"
+	1215	"Runway ID"
+	1216	"Precision Markings"
+	1217	"Pavement Beyond Edges"
+	1218	"No Markings on Runway %1"
+	1219	"Runway %1 Closed"
+	1220	"Short Take Off and Landing for Runway %1"
+
+	1240	"Disabled"
+	1241	"ODALS"
+	1242	"MALSF"
+	1243	"MALSR"
+	1244	"SSALF"
+	1245	"SSALR"
+	1246	"ALSF1"
+	1247	"ALSF2"
+	1248	"RAIL"
+	1249	"CALVERT"
+	1250	"CALVERT2"
+
+	1255	"Disabled"
+	1256	"VASI 2 row - 2 box"
+	1257	"VASI 3 row - 3 box"
+	1258	"VASI 2 row - 4 box"
+	1259	"VASI 3 row - 6 box"
+	1260	"VASI 2 row - 6 box"
+	1261	"VASI 3 row - 8 box"
+	1262	"PAPI 2 bars"
+	1263	"PAPI 4 bars"
+	1264	"VASI Tri-Color"
+	1265	"VASI Pulsating"
+
+	1268	"Disabled"
+	1269	"Enabled"
+
+	1280	"Runway"
+	1281	"Markings and Lights"
+	1282	"Textures"
+	1283	"Runway %1"
+	1284	"Radio %1"
+END
+
+// Shapes
+STRINGTABLE DISCARDABLE 
+BEGIN
+	// 1300-1349
+	1300	"&Texture:"
+	1301	"Colo&r:"
+	1302	"La&yer:"
+	1303	"&Scale:"
+	1304	"&Dots"
+	1305	"Spacing:"
+	1306	"&Line"
+	1307	"Width:"
+	1308	"&Base:"
+	1309	"O&bject:"
+	1310	"&Altitude:"
+	1311	"&Width:"	// Taxiway/Road/River
+	1312	"&Width:"	// Line
+	1313	"Ty&pe:"	// Road
+	1314	"Ty&pe:"	// Flat Area
+	1315	"Lighted at Ni&ght"
+	1316	"Visible at Ni&ght Only"
+	1317	"No N&ew Points"
+	1318	"&Altitude (MSL):"
+	1319	"A&utomatic"
+	1320	"&Visibility:"
+	1321	"&Z:"
+	1322	"&Type:"         // Taxiway line
+	1323	"&Arc Radius:"
+	1324	"&Lighted"
+	1329	"&Edit..."
+
+	// Combo box
+	1330	"No Layering"
+	1331	"4 (Mesh)"
+	1332	"8 (Polygon)"
+	1333	"12 (River)"
+	1334	"16 (Road/Taxiway)"
+	1335	"20 (Line)"
+	1336	"24 (Runway)"
+	1337	"28 (Mountain)"
+	1338	"32 (Crater)"
+	1339	"40 (Ground Element)"
+	1340	"60 (Shadow)"
+
+	1350	"Road"
+	1351	"Major Road"
+	1352	"Minor Road"
+	1353	"Railroad"
+
+	1355	"None"
+
+	1360	"Flatten (Scenery.cfg)"
+	1361	"Area16N (BGL)"
+
+	1370	"Double Solid Line"
+	1371	"Double Dashed Line"
+	1372	"Solid-Dash Line"
+	1373	"Center Line"
+	1374	"ILS Hold Line"
+	1375	"Runway Hold Line"
+	1376	"Taxiway Hold Line"
+END
+
+// Building
+STRINGTABLE DISCARDABLE 
+BEGIN
+	1400	"&Length:"
+	1401	"&Width:"
+	1402	"Al&titude:"
+	1403	"&Building Type:"
+	1404	"&Roof Light:"
+	1405	"Le&vel:"
+	1406	"&Height:"
+	1407	"&Texture:"
+	1408	"&Repeat:"
+	1409	"Note: Picture not to scale"
+	1410	"&Synchronize lobby and penthouse texture"
+	1411	"&Length:" // (Roof)
+	1412	"&Width:"  // (Roof)
+
+	// Combo boxes
+	1415	"None"
+	1416	"Steady"
+	1417	"Blinking"
+
+	1420	"Basic: Rectangular"
+	1421	"Basic: Slanted Roof"
+	1422	"Basic: Pyramid"
+	1423	"Basic: Octagonal"
+	1424	"Advanced: Rectangular"
+	1425	"Advanced: Peaked Roof"
+	1426	"Advanced: Slanted Roof"
+	1427	"%1 sided"
+
+	1430	"Building"
+	1431	"Lobby"
+	1432	"Windows"
+	1433	"Penthouse"
+	1434	"Roof"
+
+	1435	"Building"
+	1436	"Levels"
+
+	1440	"Beige, vertical stripes"
+	1441	"White, vertical stripes"
+	1442	"Black, vertical stripes"
+	1443	"Gray, vertical stripes "
+	1444	"White, dark vertical stripes"
+	1445	"White, dark horizontal stripes"
+	1446	"Beige, dark horizontal stripes"
+	1447	"Light gray, vertical stripes"
+END
+
+// Macro
+STRINGTABLE DISCARDABLE 
+BEGIN
+	// 1450-1499
+
+	// Labels
+	1450	"&Macro:"
+	1451	"&Range:"
+	1452	"&Scale:"
+	1453	"&Altitude:"
+	1454	"V&1:"
+	1455	"V&2:"
+	1456	"Preview:"
+	1457	"Param %1:"	// %1 = Param number
+
+	// Tab titles
+	1460	"Properties"
+	1461	"Macro"
+	1462	"Parameters"
+
+	// Buttons
+	1470	"&Edit"
+	1471	"&Refresh"
+	1472	"Co&lor"
+	1473	"&Texture"
+	1474	"&Default Values"
+
+	// Miscellaneous
+	1480	"Select Scenery Macro"
+END
+
+// Trees
+STRINGTABLE DISCARDABLE 
+BEGIN
+	// 1500-1549
+END
+
+// Radio
+STRINGTABLE DISCARDABLE 
+BEGIN
+	// Labels
+	1600	"&Name:"
+	1601	"&ID:"
+	1602	"&Text:"
+	1603	"&Frequency:"	// ATIS
+	1604	"&Frequency:"	// VOR/ILS
+	1605	"&Frequency:"	// NDB
+	1606	"&Range:"
+	1607	"&NW:"
+	1608	"N&E:"
+	1609	"S&W:"
+	1610	"&SE:"
+	1611	"&DME:"
+	1612	"&Beam Width:"
+
+	// Check boxes
+	1620	"List in Fa&cility Database"
+	1621	"Navigation &Beam"
+	1622	"&DME"
+	1623	"&TACAN"
+	1624	"&Localizer"
+	1625	"&Glideslope"
+
+	// Combo boxes
+	1630	"None"
+	1631	"At Glideslope"
+	1632	"At Localizer"
+
+	1640	"&Insert"
+END
+
+// ATIS Shortcuts
+STRINGTABLE DISCARDABLE 
+BEGIN
+	1665	"weather - "
+	1666	"observation "
+	1667	"[current time] zulu "
+	1669	"temperature [current temperature] - "
+	1670	"Information "
+	1671	"Landing and departing runway [runways] - "
+	1672	"Advise controller "
+	1673	"Altimeter [current pressure] - "
+	1674	"Visibility [current visibility] - "
+	1675	"Winds [current wind condition] "
+	1676	"[current measured ceiling] - "
+	1677	"on initial contact "
+	1680	"Microsoft Flight Simulator "
+	1681	"requesting "
+	1682	"clearance "
+	1683	", you are cleared "
+	1684	"... (ellipses) "
+	1685	"7777 "
+END
+
+// SCASM Code
+STRINGTABLE DISCARDABLE 
+BEGIN
+	1700	"Properties"
+	1701	"SCASM Code"
+	1702	"Editor Display:"
+	1703	"&Horizontal:"
+	1704	"&Vertical:"
+END
+
+// Background Image
+STRINGTABLE DISCARDABLE 
+BEGIN
+	// 1750-1799
+	1750	"&Image:"
+	1751	"Specify by Center &Point"
+	1752	"Specify by &Corners"
+	1753	"Lock Aspect Ratio"
+	1754	"Zoom Factor &X:"
+	1755	"Zoom Factor &Y:"
+	1756	"Visible in Flight Simulator"
+END
+
+// Exclusion, Surface Area
+STRINGTABLE DISCARDABLE 
+BEGIN
+	1800	"&Horizontal:"
+	1801	"&Vertical:"
+	1802	"&Type:"
+	1803	"&Height:"
+
+	1810	"Visual Scenery"
+	1811	"VOR, ILS"
+	1812	"NDB"
+	1813	"ATIS"
+
+	1820	"Platform (Area16)"
+	1821	"Smooth"
+	1822	"Rough (Grass)"
+	1823	"Water"
+END
+
+// Tower Location
+STRINGTABLE DISCARDABLE
+BEGIN
+	1850	"&Height (AGL):"
+	1851	"ATI&S:"
+	1852	"&MULTICOM:"
+	1853	"&UNICOM:"
+	1854	"Tra&ffic Control:"
+	1855	"&Ground Control:"
+	1856	"Cont&rol Tower:"
+	1857	"Cl&earance Delivery:"
+	1858	"&Approach Control:"
+	1859	"&Departure Control:"
+	1860	"Cen&ter:"
+	1861	"Flight Ser&vice Station:"
+	1862	"Automated &Weather:"
+
+	1870	"Tower"
+	1871	"Frequencies"
+END
+
+// Point
+STRINGTABLE DISCARDABLE 
+BEGIN
+	1950	"&Lighting:"
+	1951	"&Line Style:"
+
+	1960	"None"
+	1961	"Dotted (Taxiway)"
+
+	1965	"Normal"
+	1966	"Invisible"
+END
+
+// Main
+STRINGTABLE DISCARDABLE 
+BEGIN
+	2000	"Do you want to save the changes to %1?"	// %1 = File name
+	2001	"Previous versions of FS Scenery Creator have a slight inaccuracy in the calculation of world coordinates. Please select the nature of your scenery to determine the appropriate correction."
+	2002	"Relative distance between objects is important."
+	2003	"Exact latitude and longitude placement is important."
+
+	2010	"Loading..."
+	2011	"Saving..."
+	2012	"Autosaving..."
+	2013	"Compiling..."
+	2014	"Copying Files..."
+
+	2020	"Current Position: %1"
+	2021	"X: %1 %3    Y: %2 %3"
+	2022	"Distance: %1 %2"    // %1 = Distance, %2 = Units
+	2023	"Object: %1"
+
+	2030	"Save Scenery Creator File"
+	2031	"Open Scenery Creator File"
+	2033	"Compile SCASM File"
+	2034	"Select BGL Files to Link"
+	2035	"Output File"
+
+	2050	"FS Scenery Creator Files (*.scn)|*.scn"
+	2051	"Scenery Files (*.scn; *.apt)|*.scn;*.apt"
+	2052	"Macro Files (*.api;*.scm)|*.api;*.scm"
+	2053	"SCASM Source Files (*.sca)|*.sca"
+	2054	"BGL Scenery Files (*.bgl)|*.bgl"
+END
+
+// About box
+STRINGTABLE DISCARDABLE 
+BEGIN
+	2100	"About FS Scenery Creator"
+	2101	"Programmed by Derek Leung"
+	2102	"Version %1.%2.%3"	// %1.%2.%3 = Major.Minor.Revision
+	2103	"Copyright © %1 by Derek Leung\nLeung Software"	// %1 = Year
+	2104	"E-mail:"
+	2105	"Webpage:"
+	2106	"(Check webpage for availability)"
+
+	2110	"&System Info"
+END
+
+// Change Folder
+STRINGTABLE DISCARDABLE 
+BEGIN
+	2120	"Change Folder"
+	2121	"&Selected Folder:"
+	2122	"&Folders:"
+	2123	"Dri&ves:"
+END
+
+// Symbols
+STRINGTABLE DISCARDABLE 
+BEGIN
+	2140	"Insert Symbol"
+	2141	"&Available Symbols:"
+	2142	"Shortcut Key: Ctrl+%1"
+
+	2150	"&Insert"
+END
+
+// Color
+STRINGTABLE DISCARDABLE 
+BEGIN
+	2160	"Color Selection"
+	2161	"No Color"
+	2162	"Palette Colors"
+	2163	"Extra Palette Colors"
+	2164	"Night Illuminated Colors"
+	2165	"Custom Color"
+	2166	"Transparent"
+	2167	"Opaque"
+	2168	"Constant &Brightness"
+END
+
+// Zoom
+STRINGTABLE DISCARDABLE 
+BEGIN
+	2180	"Specify Zoom Value"
+END
+
+// Transform
+STRINGTABLE DISCARDABLE 
+BEGIN
+	2190	"Transform"
+	2191	"Operate on &Scenery"
+	2192	"Operate on Se&lection"
+	2193	"&Rotation:"
+END
+
+
+// Texture
+STRINGTABLE DISCARDABLE 
+BEGIN
+	2200	"Texture Selection"
+	2201	"Background Selection"
+	2202	"Fi&le:"
+	2203	"Preview:"
+	2204	"Flip &Preview"
+	2205	"&Expand to Fit"
+	2206	"Special Textures:"
+	2207	"&Night"
+	2208	"&Spring"
+	2209	"&Fall"
+	2210	"&Winter"
+	2211	"&Hard Winter"
+
+	2220	"Browse"
+	2221	"Save Texture As Bitmap"
+	2222	"Picture Files|*.bmp;*.ico;*.rle;*.wmf;*.emf;*.gif;*.jpg|All Files|*.*"
+	2223	"Texture Files|%1|All Files|*.*"	// %1 = Texture Filter
+	2224	"Bitmap Files|*.bmp"
+
+	2230	"Sa&ve"
+END
+
+// Export
+STRINGTABLE DISCARDABLE
+BEGIN
+	2240	"Export Scenery Wizard"
+	2241	"&Test Scenery"
+	2242	"&Package Scenery"
+	2243	"Base &Location:"
+	2244	"&Export Method:"
+	2245	"&Files:"
+	2246	"&Destination:"
+
+	2250	"Select your output directory"
+	2251	"Add a File"
+	2252	"All Files (*.*)|*.*"
+
+	2259	"&Add File"
+
+	2260	"Automatic"
+	2261	"Scenery Only"
+	2262	"Scenery + AFD"
+
+	2265	"Destination Folder"
+	2266	"Destination Scenery Folder"
+	2267	"Destination Texture Folder"
+	2268	"Main Scenery Folder"
+	2269	"Main Texture Folder"
+END
+
+// Tip of the Day
+STRINGTABLE DISCARDABLE
+BEGIN
+	2280	"Tip of the Day"
+	2281	"Did you know..."
+	2282	"&Show Tips at Startup"
+	2283	"&Next Tip"
+END
+
+// Preferences
+STRINGTABLE DISCARDABLE 
+BEGIN
+	2300	"Preferences"
+	2301	"Settings"
+	2302	"Locations"
+	2303	"Colors"
+	2304	"Favorite Macros"
+	2305	"Favorite Tools"
+	2306	"Miscellaneous"
+	
+	2310	"General"
+	2311		"Remember Window State"
+	2312		"Neat Recent File List"
+	2313		"Show Scenery Properties on New File"
+	2314		"Remember Previous Object Properties"
+	2315		"Display Fractional Minutes"
+	2316		"Default Unit of Measure"
+	2317			"Metric"
+	2318			"Standard"
+	2319		"Orientation"
+	2320			"Geographic"
+	2321			"Magnetic"
+	2322		"Old Style Menus"
+	2323		"Save Files Compressed"
+	2324		"Show Export Wizard Every Time"
+	2325		"Use Macro Default Values"
+
+	2330	"Flight Simulator Version"
+	2331		"Flight Simulator 95"
+	2332		"Flight Simulator 98"
+	2333		"Combat Flight Simulator"
+	2334		"Flight Simulator 2000"
+	2335		"Combat Flight Simulator 2"
+	2336		"Flight Simulator 2002"
+
+	2340	"Export"
+	2341		"Edit FS Configuration File"
+	2342		"Compress BGL File"
+	2343		"Keep Intermediate Files"
+	2344		"Prompt to Save Before Compiling"
+
+	2350	"Appearance"
+	2351		"Mouse Pointer Shape"
+	2352			"Arrow"
+	2353			"Crosshair"
+	2354		"Show Focus Circles"
+	2355		"Show Point Circles"
+	2356		"Snap Points to Nearest Line"
+	2357		"Textured/Colored Polygons"
+	2358		"Textured/Colored Lines"
+	2359		"Textured/Colored 3D Objects"
+	2360		"Show Compass"
+
+	2370	"Visible Objects"
+
+	// Listview
+	2400	"FS Folder"
+	2401	"Texture Folder"
+	2402	"Scenery Compiler"
+	2403	"BGL Compressor"
+	2404	"Text Editor"
+	2405	"Macro Folder %1" // %1 = Folder number
+	2406	"Macro Pic Folder %1"	// %1 = Folder number
+
+	// Prompts
+	2410	"Select your Flight Simulator scenery folder"
+	2411	"Select your texture folder"
+	2412	"Find Scenery Compiler"
+	2413	"Find BGL Compressor"
+	2414	"Find Text Editor"
+	2415	"Select the location of your macros"
+	2416	"Select the location of your macro bitmaps"
+
+	// Headers
+	2420	"Item"
+	2421	"Location"
+
+	// Labels
+	2430	"&Settings:"
+	2431	"&Locations:"
+	2432	"Objec&ts:"
+	2433	"&Scheme:"
+	2434	"Color:"
+	2435	"&Macros:"
+	2436	"Too&ls:"
+	2437	"&File:"
+	2438	"&Name:"
+	2439	"Cate&gory:"
+	2440	"&Autosave:"
+	2441	"minutes"
+	2442	"&Grid:"
+	2443	"&Texture File Filter:"
+
+	// Dialog Titles
+	2450	"Find Macro"
+	2451	"Find Application"
+
+	// Schemes
+	2460	"FS Scenery Creator"
+	2461	"Airport"
+
+	2470	"Executable Files|*.exe;*.com;*.pif;*.bat"
+	2471	"Favorites" // Macro default category
+
+	2480	"&Defaults"
+	2481	"&Modify"
+	2482	"Ne&w"
+	2483	"Dele&te"
+END
+
+// Autosave
+STRINGTABLE DISCARDABLE
+BEGIN
+	2500	"Autosave Recovery"
+	2501	"The following files were recovered from a previous session."
+	2510	"&Open"
+	2511	"&Delete all"
+END
+
+// Tip of the day
+STRINGTABLE DISCARDABLE
+BEGIN
+	// Start of tips
+	2800	"Welcome to Flight Simulator Scenery Creator! You will find helpful tips every time you start the program in this window."
+	2801	"FS Scenery Creator can do multiple selection. Click and drag a selection grid, or hold Ctrl while selecting items. You can drag the objects or edit the properties of the selected objects as a whole."
+	2802	"Use a Flat Area in FS2000 and above to flatten the land at a particular altitude. Synthetic Scenery is used in FS95 and FS98 for the same purpose."
+	2803	"To make an area suitable for taxiing and landing, use a Surface Area. Surface Areas are used to designate water, grass, or concrete land types. In addition, Surface Areas can be used to make platforms for helipads."
+	2804	"Macros provide virtually unlimited possibilities for inserting objects. FS Scenery Creator supports both of the major macro formats (API, SCM). Provide the macro with parameters to customize it."
+	2805	"Make your airport visible in the GPS view by checking "Airport and Facilities Entry" in the Runway, NDB, and VOR property pages. Be sure to enter the Airport location in the Scenery properties page as well."
+	2806	"You can adjust the grid size in the Preferences ."
+	2807	"You can change the default unit of measure from the Preferences window."
+	2808	"You can use CTRL + Arrow buttons to fine-tune the position of objects."
+	2809	"You can use CTRL + L or CTRL + R to rotate objects by one degree clockwise (R) or counterclockwise (L)."
+	2810	"You can revert to the old style menus of FS Scenery Creator version 1.2 in the Preferences window."
+	2811	"You can use the mousewheels to move the editor (hold Shift to move horizontally, hold Ctrl to zoom)"
+	2812	"You can have the editor show a section of your scenery at the best zoom scale. Drag a grid around the area of interest, and press the (+) key."
+	2813	"Taxiway lighting for a polygon needs to be enabled for individual points. Select the point or group of points and go to the property page."
+	2814	"When dragging objects or drawing a grid, hold the mouse cursor on the edges of the editor to scroll in that direction."
+	2815	"You can open a property page to a particular tab with shortcut keys: F4 = tab 1, F5 = tab 2, etc..."
+	2816	"Some objects are disabled because your version of Flight Simulator does not support them. For example, Flat Areas are new to FS2000. Check the help pages on an object for details."
+	2817	"Five folder locations for macros can be defined in the Preferences window. Any macros in those folders or subfolders are automatically listed in the Macro picker."
+	2818	"You can make a line of macros by using the Line object."
+	2819	"You can enter numbers in different units of measure. Simply enter the desired prefix (m, ft, km, nm, mi) and the conversion is automatic."
+	2820	"You can lock the positions of objects so that you do not accidentally move them. Press Ctrl+K on a selection to lock, or Ctrl+U to unlock or check the box on the property pages."
+	2821	"When making rounded corners with a dotted line or a taxiway, turn on lighting only for one or two points to reduce the number of lights at the corners."
+	2822	"Importing sceneries from sources other than the FS Scenery Creator v1.5 file format will not always be exact (such as from FSSC v1.2, Airport). Objects that are not supported are discarded upon import. Be sure to check the import before continuing."
+	2823	"The background image can be used to underlay a satelite image to facilitate placement of objects. Supported formats include BMP, JPG, and GIF."
+	2824	"You can use multiple Flat Areas (Area16N style) to create primitive hills. For more complicated terrains, look for a terrain editing program."
+	2825	"You can define frequently used programs to be accessible from the Tools menu in the Preferences window for easy access."
+	2826	"You can change the color theme from the Preferences window."
+	2827	"FS Scenery Creator periodically backs up your work. If you lose any data, the program will attempt to recover them when you restart it."
+	2828	"Help is available online. Check out the discussion board (on the FSSC website). Or try e-mailing or instant messaging. Details are available in the About box."
+	2829	"#"
+END
+
+// Error Messages
+STRINGTABLE DISCARDABLE 
+BEGIN
+	3000	"%1 must be between %2 and %3 %4."	// %1 = Parameter,	%2 = Lower bound,
+	3001	"%1 must be between %2 and %3."		// %3 = Upper bound,	%4 = Unit
+	3002	"Unrecognized unit of measure \"%1\" for %2. Valid units are meters (m), feet (ft), nautical miles (nm), kilometers (km), and miles (mi)."   // %1 = unrecognized unit,   %2 = parameter
+	3003	"%1 must be numeric."	// %1 = Parameter
+	3004	"You must enter some text."
+	3005	"You must specify a name."
+	3006	"You must specify an ID."
+	3007	"Runway ID should be between 1 and 36 and optionally include an 'L', 'R', or 'C' suffix."
+	3008	"You must specify a file name."
+	3009	"Unrecognized unit of measure \"%1\" for %2. Valid units are geographic (geo) or magnetic (mag)"   // %1 = unrecognized unit,   %2 = parameter
+
+	3010	"The selected file is not a valid FS Scenery Creator File."
+	3011	"The selected file was created by a higher version of FS Scenery Creator. Some objects and/or settings in the file may not be supported by this version of FS Scenery Creator."
+	3012	"This file contains settings and/or objects not supported by the current Flight Simulator version setting. Click Yes to set the current version to Flight Simulator 2000, or no to cancel loading the file."
+	3013	"The selected file contains City object(s) which do not appear in FS2000."
+	3014	"The file just opened references a background image, %1, that could not be found."
+			// %1 = File name
+	3015	"This object is already linked by %1. If you need to link to %2, make a copy of it and link to the new copy."
+
+	3020	"File Name must be specified."
+	3021	"The file could not be found."
+	3022	"The folder %1 could not be found."
+	3023	"Texture loading error."
+	3024	"%1 is not accessible\n\nThe device is not ready."
+			// %1 = drive letter
+	3025	"The background picture file you selected does not exist."
+	3026	"Macro picture"
+	3027	"not available"
+	3028	"The folder:\n\n%1\n\ndoes not exist. Do you want to create the folder?"
+	3029	"FS Scenery Creator encountered an error when trying to open your text editor. The problem was:\n\n%1"
+
+	3030	"The specified latitude is too close to the pole."
+	3031	"Magnetic variation file not found. Ensure that the Flight Simulator folder is set correctly in the Preferences dialog box."
+	3032	"Invalid latitude and/or longitude."
+	3033	"Only one tower location can be present in a scenery. The tower was not copied."
+	3034	"No more Flat Areas exist in the editor. Do you want to delete the Flat Area definiion file, %1?"
+	3035	"The selected bitmap file needs to be converted into a suitable format for Flight Simulator. Press OK to select a file name for the converted file."
+
+	3040	"There was an error while compiling the scenery. Click Yes to view the error log. Click Help to tips on resolving these errors."
+	3041	"The specified scenery compiler was not found on your system."
+	3042	"The macro %1 does not contain a valid file name." // %1 = Macro name
+	3043	"An error occurred while trying to copy files."
+	3044	"An error occurred while trying to create new folders. The problem was:\n\n%1"
+	3045	"The Region, Country, City, and ICAO ID fields must be specified in the Scenery Properties box for Airport and Facility data to appear in Flight Simulator."
+
+	3050	"%1 (not found)"
+	3051	"Dot Spacing must be non-zero for lines of objects"
+
+	3060	"The macro %1 could not be found."
+	3061	"The file includes Airport 2.xx macros, but Airport is not installed on your system"
+END
+
+// Object Names
+STRINGTABLE DISCARDABLE 
+BEGIN
+	3200	"Scenery"
+	3201	"Runway"
+	3202	"Polygon"
+	3203	"Taxiway"
+	3204	"Road"
+	3205	"River"
+	3206	"Line"
+	3207	"Taxiway Line"
+	3208	"Building"
+	3209	"Macro"
+	3210	"ATIS"
+	3211	"VOR"
+	3212	"NDB"
+	3213	"Tower"
+	3214	"Menu Entry"
+	3215	"Background Image"
+	3216	"Flat Area"
+	3217	"Surface Area"
+	3218	"Exclusion"
+	3219	"SCASM Code"
+	3220	"Point"
+	3221	"Background"
+	3222	"Grid"
+	3223	"Selected"
+	3224	"Dragged"
+	3225	"Synthetic"
+	3226	"Compass"
+
+	3250	"Point %1 of %2"	// %1 = Point number, %2 = Shape name
+	3251	"Point %1"	// %1 = Point number
+END
+
+
+// Runway Names
+STRINGTABLE DISCARDABLE 
+BEGIN
+	3300	"Dirt"
+	3301	"Concrete"
+	3302	"Asphalt"
+	3303	"Grass"
+	3304	"Coral"
+	3305	"Gravel"
+	3306	"Oil treated"
+	3307	"Mats"
+	3308	"Snow"
+	3309	"Water"
+	3310	"Texture 10"
+	3311	"Texture 11"
+	3312	"Texture 12"
+	3313	"Texture 13"
+	3314	"Texture 14"
+	3315	"Texture 15"
+	3316	"Texture 16"
+	3317	"Texture 17"
+	3318	"Texture 18"
+	3319	"Texture 19"
+	3320	"Texture 20"
+	3321	"Texture 21"
+	3322	"Texture 22"
+	3323	"Texture 23"
+	3324	"Texture 24"
+	3325	"Texture 25"
+	3326	"Texture 26"
+	3327	"Texture 27"
+	3364	"Dirt Square"
+	3365	"Dirt Round"
+	3366	"Steel Mat Square"
+	3367	"Coral Square"
+	3368	"Coral Round"
+	3398	"Invisible"
+	3399	"Automatic"
+END
+
+// Synthetic Names
+STRINGTABLE DISCARDABLE 
+BEGIN
+	3400	"Transparent"
+	3401	"Water"
+	3402	"Broadleaf"
+	3403	"Needle leaf"
+	3404	"Tropical"
+	3405	"Crops"
+	3406	"Prairie"
+	3407	"Arid 1"
+	3408	"Arid 2"
+	3409	"Arid 3"
+	3410	"Desert"
+	3411	"Tundra"
+	3412	"Glacier"
+	3413	"Swamp"
+	3414	"Farm"
+	3415	"Lake"
+	3416	"Large City w/ Buildings"
+	3417	"Small City w/ Buildings"
+	3418	"Suburban 1"
+	3419	"Suburban 2"
+	3420	"Suburban 3"
+	3421	"High-rise"
+	3422	"Medium-rise"
+	3423	"Urban"
+	3424	"Urban/Suburban"
+	3425	"City w/ Buildings"
+	3426	"Suburban 4 (diagonal)"
+END
+
+// Menu names
+STRINGTABLE DISCARDABLE 
+BEGIN
+	3500	"&File"
+	3501	"&New"
+	3502	"&Open..."
+	3503	"&Save"
+	3504	"Save &As..."
+	3505	"&Import..."
+	3506	"&Export"
+	3507	"Export Scenery &Wizard..."
+	3508	"E&xit"
+
+	3520	"&Edit"
+	3522	"Cu&t"
+	3523	"&Copy"
+	3524	"&Paste"
+	3525	"&Delete"
+	3526	"Se&lect Polygon"
+	3527	"Sort Scenery &Objects"
+	3528	"Trans&form..."
+	3529	"&Scenery Properties..."
+
+	3540	"&Tools"
+	3541	"&Compile SCASM File..."
+	3542	"Link &BGL Files..."
+	3547	"&Preferences..."
+	3548	"Set &Language..."
+
+	3560	"&View"
+	3561	"Scener&y Objects"
+	3562	"Zoom &In"
+	3563	"Zoom &Out"
+	3564	"&Zoom..."
+	3565	"Zoom &Standard"
+	3566	"Bring to Fron&t"
+	3567	"Send to Bac&k"
+	3568	"T&oolbar"
+	3569	"Statusba&r"
+	3570	"S&crollbars"
+
+	3580	"&Help"
+	3581	"&Help Topics"
+	3582	"T&utorials"
+	3583	"&Frequently Asked Questions"
+	3584	"What's &New"
+	3585	"&Tip of the Day"
+	3586	"SCASM/FreeSC &Language Reference"
+	3587	"&Contact the Author"
+	3588	"FS Scenery Creator on the &Web"
+	3590	"&About FS Scenery Creator"
+	3591	"Ac&knowledgements"
+
+	3600	"&Center Here"
+	3601	"Or&der"
+	3602	"New &2D Object"
+	3603	"New &3D Object"
+	3604	"New &Radio Object"
+	3605	"New &Misc. Object"
+	3606	"&%1..."
+	3607	"&Insert Point"
+	3608	"&Properties..."
+	3609	"%1 &Properties..."
+END
+
+// Toolbar button tooltips
+STRINGTABLE DISCARDABLE 
+BEGIN	
+	3701	"New (Ctrl+N)"
+	3702	"Open (Ctrl+O)"
+	3703	"Save (Ctrl+S)"
+	3704	"Export"
+	3706	"Undo (Ctrl+Z)"
+	3707	"Cut (Ctrl+X)"
+	3708	"Copy (Ctrl+C)"
+	3709	"Paste (Ctrl+V)"
+	3710	"Delete (Del)"
+	3712	"Properties (F4)"
+	3713	"Objects"
+	3714	"Paint All Objects"
+	3716	"Rotate Counterclockwise (Ctrl+L)"
+	3717	"Rotate Clockwise (Ctrl+R)"
+	3719	"Bring to Front"
+	3720	"Send to Back"
+	3722	"Zoom In"
+	3723	"Zoom Out"
+	3724	"Zoom Level"
+	3726	"Help Topics (F1)"
+END
+
+// EOF Marker
+STRINGTABLE DISCARDABLE 
+BEGIN
+	9999	""
+END

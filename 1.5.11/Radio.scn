@@ -1,0 +1,44 @@
+[General]
+Version=15
+Count=2
+AFDRefresh=0
+ExportPath=c:\PROGRAM FILES\Microsoft Games\FS2002
+
+[Header]
+Author=Derek
+Copyright=Copyright © 2002 by Derek
+Name=Untitled Scenery
+LanguageCode=US English - 409
+Region=AnyPlace
+Country=AnyCountry
+City=AnyTown
+ICAO=ANY
+Latitude=N00:00:00.0000
+Longitude=E000:00:00.0000
+MagVar=8.8
+
+[Runway]
+Name=Test
+X=-498
+Y=124
+Length=3000
+Width=46
+ID=1
+Surface=1
+Markers=63743
+Near ILS Enabled=1
+Near ILS Name=Test
+Near ILS ID=TEST
+Near ILS Frequency=110.5
+Near ILS Range=16
+Near ILS Flags=193
+Near ILS Beam Width=2.5
+
+[VOR]
+Name=VOR 1
+X=-142
+Y=248
+ID=VOR1
+Frequency=110.6
+Flags=139
+

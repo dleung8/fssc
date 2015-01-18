@@ -1,0 +1,35 @@
+	3209	"Tree"
+	3521	"&Undo"
+
+	1040	"&Add File"
+	1041	"C&reate"
+
+	3051	"The adjustable macro %1 is not supported."
+
+	1708	"Please select the main folder of the Airport program to load the Airport macros."
+
+	2032	"Export Scenery"
+
+
+// Scenery Distribution
+STRINGTABLE DISCARDABLE 
+BEGIN
+	1920	"Scenery Distribution"
+	1921	"&Output Folder:"
+	1922	"&Default Destination:"
+	1923	"Distribution &Files:"
+	1924	"Des&tination:"
+	1925	"&Flight Simulator 2000 Only"
+	1926	"&Update Scenery.cfg"
+
+	1930	"Select your output directory"
+	1931	"Add a File"
+	1932	"All Files (*.*)"
+
+	1940	"Destination Scenery Folder"
+	1941	"Destination Texture Folder"
+	1942	"Destination Folder"
+	1943	"Main Scenery Folder"
+	1944	"Main Texture Folder"
+END
+

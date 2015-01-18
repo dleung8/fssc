@@ -1,0 +1,25 @@
+[General]
+Version=20
+Count=1
+AFDRefresh=0
+
+[Header]
+Author=Derek
+Copyright=Copyright © 2003 by Derek
+Name=Untitled Scenery
+LanguageCode=US English - 409
+Region=AnyPlace
+Country=AnyCountry
+City=AnyTown
+ICAO=ANY
+Latitude=N00:00:00.0000
+Longitude=E000:00:00.0000
+MagVar=8.8
+
+[Macro]
+X=-1094
+Y=668
+File=C:\Program Files\Leung Software\FS Scenery Creator\Macros\HOTEL1.API
+V1=10000
+V2=100
+

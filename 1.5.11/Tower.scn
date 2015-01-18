@@ -1,0 +1,42 @@
+[General]
+Version=18
+Count=3
+
+[Header]
+Author=Derek
+Copyright=Copyright © 2002 by Derek
+Name=Untitled Scenery
+LanguageCode=US English - 409
+Region=AnyPlace
+Country=AnyCountry
+City=AnyTown
+ICAO=ANY
+Latitude=N00:00:00.0000
+Longitude=E000:00:00.0000
+MagVar=8.8
+
+[Runway]
+X=-1570
+Y=244
+Length=3000
+Width=46
+ID=1
+Surface=1
+
+[Tower]
+X=-1366
+Y=-64
+ATIS=127.3
+MULTICOM=127.4
+CTAF=127.6
+CDEL=127.9
+DEPCON=128.1
+
+[Runway]
+X=-1194
+Y=-12
+Length=3000
+Width=46
+ID=1
+Surface=1
+

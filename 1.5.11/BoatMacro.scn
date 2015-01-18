@@ -1,0 +1,26 @@
+[General]
+Version=20
+Count=1
+AFDRefresh=0
+
+[Header]
+Author=Derek
+Copyright=Copyright © 2003 by Derek
+Name=Untitled Scenery
+LanguageCode=US English - 409
+Region=AnyPlace
+Country=AnyCountry
+City=AnyTown
+ICAO=ANY
+Latitude=N00:00:00.0000
+Longitude=E000:00:00.0000
+MagVar=8.8
+
+[Macro]
+X=-1222
+Y=360
+File=C:\Documents and Settings\Derek\Desktop\Todo\boatmac1\New_C3\New_C1\scm\bateau14dS45b.scm
+V2=100
+Param5=1
+Param6=1
+
