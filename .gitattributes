@@ -3,17 +3,17 @@
 
 # Explicitly declare text files you want to always be normalized and converted
 # to native line endings on checkout.
-*.bas text
-*.cls text
-*.dat text
+*.bas text eol=crlf
+*.cls text eol=crlf
+*.dat text eol=crlf
 lang*.dat binary
-*.frm text
+*.frm text eol=crlf
 *.frx binary
 .ico binary
-*.rc text
+*.rc text eol=crlf
 *.res binary
-*.scn text
-*.vbp text
+*.scn text eol=crlf
+*.vbp text eol=crlf
 
 # Declare files that will always have CRLF line endings on checkout.
 
