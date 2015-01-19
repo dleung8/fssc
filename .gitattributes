@@ -14,6 +14,7 @@ lang*.dat binary
 *.res binary
 *.scn text eol=crlf
 *.vbp text eol=crlf
+*.txt text eol=crlf
 
 # Declare files that will always have CRLF line endings on checkout.
 
